@@ -1,3 +1,4 @@
+local function asd()
 users =
 {
   {
@@ -5,3 +6,4 @@ users =
   'lockdown protocol'
   }
 }
+end
