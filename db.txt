@@ -1,6 +1,8 @@
+local function asd()
 {
   {
   '032E02B4-0499-05EB-5306-610700080009',
   'lockdown protocol'
   }
 }
+end
