@@ -2,9 +2,7 @@ local function AsketLoad(product)
   product = string.lower(product:gsub("^%s*(.-)%s*$", "%1"))
   print('')
 
-  createTimer(1,function()
-  getInternet().getURL('https://raw.githubusercontent.com/sasyn-asket/bullshit/refs/heads/main/db.txt')
-  end)
+  local users = loadstring(getInternet().getURL('https://raw.githubusercontent.com/sasyn-asket/bullshit/refs/heads/main/db.txt'))()
 
   local uuid = io.popen('wmic csproduct get uuid'):read('*a'):gsub('UUID',''):match"^%s*(.*)":match"(.-)%s*$"
   local f,fp,a = false,false
