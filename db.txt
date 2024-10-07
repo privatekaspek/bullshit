@@ -1,7 +1,9 @@
-users =
-{
+local function database()
+  users =
   {
-  '032E02B4-0499-05EB-5306-610700080009',
-  'lockdown protocol'
+    {
+    '032E02B4-0499-05EB-5306-610700080009',
+    'lockdown protocol'
+    }
   }
-}
+end
