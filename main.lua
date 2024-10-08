@@ -28,7 +28,7 @@ function AsketLoad(product)
   end
 
   if f and product == '' then
-    print('❓ Your products:')
+    print(' - Your products:')
     for i = 2, #users[a] do
       print(' ✔ '..users[a][i])
     end
