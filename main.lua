@@ -28,9 +28,9 @@ function AsketLoad(product)
   end
 
   if f and product == '' then
-    print(' - Your products:')
+    print('❓ Your products:')
     for i = 2, #users[a] do
-      print(' ✔ '..users[a][i])
+      print(' - '..users[a][i])
     end
     return
   end
@@ -42,7 +42,7 @@ function AsketLoad(product)
   elseif f and not fp then
     print('✔ User found  \n✖ Poduct not found ['..product..'] \n\n❓ Your products:')
     for i = 2, #users[a] do
-      print(' ✔ '..users[a][i])
+      print(' - '..users[a][i])
     end
   end
 end
