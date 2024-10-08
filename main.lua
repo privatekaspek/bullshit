@@ -1,4 +1,4 @@
-local function AsketLoad(product)
+function AsketLoad(product)
   product = string.lower(product:gsub("^%s*(.-)%s*$", "%1"))
   print('')
 
