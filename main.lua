@@ -1,4 +1,6 @@
 function AsketLoad(product)
+  createTimer(1000,function() AsketLoad = nil end)
+  
   product = string.lower(product:gsub("^%s*(.-)%s*$", "%1"))
   print('')
 
