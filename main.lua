@@ -7,6 +7,7 @@ function AsketLoad(product)
   local users = loadstring(getInternet().getURL('https://raw.githubusercontent.com/sasyn-asket/bullshit/refs/heads/main/db.txt'))()
 
   local uuid = io.popen('wmic csproduct get uuid'):read('*a'):gsub('UUID',''):match"^%s*(.*)":match"(.-)%s*$"
+  local uname = os.getenv('USERNAME')
   local f,fp,a = false,false
 
   for i = 1, #users do
