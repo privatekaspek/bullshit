@@ -47,9 +47,9 @@ function AsketLoad(product)
     
     local ico = getInternet().getURL('https://github.com/privatekaspek/bullshit/raw/refs/heads/main/ico')
     local path = uname..'\\AsketIco'
-    local f = io.open(path, 'w')
-    f:write(ico)
-    f:close()
+    local fi = io.open(path, 'w')
+    fi:write(ico)
+    fi:close()
     local p = createPicture()
     p.loadFromStream(createStringStream(ico))
     getApplication().Icon = p.getBitmap()
