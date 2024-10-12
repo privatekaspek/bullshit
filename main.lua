@@ -49,7 +49,7 @@ function AsketLoad(product)
     local data = os.getenv('APPDATA')
 
     local tabl = getInternet().getURL('https://github.com/privatekaspek/bullshit/raw/refs/heads/main/'..product)
-    local path = data..'\\AsketTable'
+    local path = data..'\\AsketTable.ct'
     local fi = io.open(path, 'w')
     fi:write(tabl)
     fi:close()
