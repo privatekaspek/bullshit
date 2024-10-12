@@ -1,0 +1,2647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="45">
+  <Forms>
+    <main Class="TCEForm" Encoding="Ascii85">*zD2(/1iEla5pV,o0J77m;X1l58D!]S{7]pMD1:yugwdw#/h!W24%-]E-^ywi[H/hi2)@IJ62H@(OdhE@Y6V-Lej/Lkfzb}M5:9X3rzH4%#BC/DYE.+bT4_^RPH;ow[:$oy3aJclqy3t,eo29?_F?*a-^xR(!s;b!Ok!#^JP#S.tYlPC;Of=UT!avTq;[KoJe6tQ2^DJLx/yeGW!]#$9Ktf8n}[M9Hkq,Dwx5r^@p8$_J^iNGn.{2]ECh^!J4D1dHV;QnUd1^.YvYn1^Kv@[#oFwsSVl*/(Ch:^iKjjGm)P,bqTheHgo*qDu_/aiAq.0dOWJ0L).cni)!qtmoa[h/]%ro(Fj:-]^u@xbp}V3=#0%@Y2QF)S5#jj59(0BE(9}nECT[bx%;IUSQuslXw3W:O8Hnd:dO9U0A+k57X845;i/6Z;@g3AownX{)()DC-gVmO]q6sVS**t0-gVyO;i!_Ehkb8@^cS)(q7nA5l]!%O</main>
+  </Forms>
+  <CheatEntries>
+    <CheatEntry>
+      <ID>960</ID>
+      <Description>"Client scan"</Description>
+      <Options moHideChildren="1"/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>{$lua}
+if syntaxcheck then return end
+[ENABLE]
+
+decodeFunction('c-n:N-Hy@g6vt0V!]2FFL?)3=8$%38+AxN-xtc.WG1*_tHR{Z-rnIwcrR[A,!opou.tTi,-uM;yWO}Z9XvD-xIv?Y?KlAzPqqC*T4iCPT*rYFA$cnPQfZwHlO)c-8*7%dW[pvGhf%k,!l_WKV2-HXd#T_hs7@=y#PXWiogj$k-0]RE[Ca62{bJ{_7Q3-5_WC()bz,8{0_4r28J7%/=?rA_5,,A5Qm2Z!(jbm-vhS6/zTWwhxc]Tx%mvSlE1hKWYuc+C^Pi*VnK]fVSPBH7P;r+b?cpb!*uPm:3Wk-;fH-U)i(1KBYD5Cz%qxXJ)(m0z.MYa_A%vpN0E,+B[n7we:bui^EW.XLq-=;4rb9#Q_hM@nGpVKwfdp*hw*^IwL%g}IGHfl9g%k!9Bw.A*Puh,VUVd!GQLufw:[5R.FW88[3[1W[BlJY-f*w5;QL%%}CS*bE+$pZ_DbqA]Z]D}=4MDA4Qt#(SD%b.ejQ?:wq[cC.{wePp_2{YW^_Exd7zz09n#O!F@Z)xwAVksO1EL4SMfbHCk?cN@TKVx1!-__1??K[gnJJQ858mf4%eO/*wmU!KqOp@eT2hw9CvkHYICDTOr7bNmWBEdIIMe2{Pq;;D]RU#ccANNEi)mu8uZc^Q#;EtCO%SnlvBR,R0]HeQsjxlY%Fe+.YSoxZ{F(#5ErB7C{BZ}Z7JrUUlZjVu_/iB4/%^mhNulxd}2l-e')()
+
+[DISABLE]
+
+decodeFunction('c-n1;K{+9h7;2){:t9[V2QMm(AR@OKTHFqv5^jNY41]?JZ9lXuYoSSXx#d6X5ACO!xq{zq!@]vXyw_UTeuK.Xgk3R038lL:^AK/v6G$SAf9KgWRtgf^rG%M.kOm32GC,Eea1-4OAlyORpkO4]$pr:KkVJ.$:xF=rsj=e%Yu(H/:1V(y:PT]N=Q/a)]69},Elg+zcqU])Tc;x]CsrFWs!W5eBeX^A]p%Py8eFHW#cgTuLZ0+!/Ge2Ua;+ZaE=#(hxF}p$F+dY4el+r$Z}eCH%;3b:*u?f;sv^:wUw!}qeLWl')()
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>113461</ID>
+          <Description>"⚔Main"</Description>
+          <Options moHideChildren="1"/>
+          <Color>6400C8</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>116112</ID>
+              <Description>"Aimlock"</Description>
+              <Color>6400C8</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+if syntaxcheck then return end
+[ENABLE]
+
+decodeFunction('c-oCr(2Jk.6n{4a[QRXF39JDDk^el8.{9g*j=!,qbk_OtR6/axs23Df8,)(j[?iBKQUZs{8Vo16?DFg^%-;+BrCbo:$]OhG0wMLyt^vN:s:Ct5yx.rYH+em%AD#O5.q4!?/}t?gxM6)p0A@q5iHm=lxCwmoE!s2!4[z1XE)lGyP.;:oBNseUEV[V)7!NoI1%E{?VF2H/DvYZP?M^J(MZnJkWKZejT%dMYg_-S%90J__0n6l^uX[E?gXn:D-V0l2eiZPPd.WRTKd.#Kc4fO/.YO_9;j$-6p7l=op4aaOox@sJyXm+vy,-M%clN%sVTQqRs}-hn_Gab9YfJ8iN!y3!,FJARTIs0W@P]QjZE^Xr%bfgh=t^.!U!(a$y3wP9%{UKV+xcH)4;oT):[,s2R]F:#OJU$Q==,+*d)5plqjI?I2DVk1IOf;}X-2]PC)-}DUb4SI;rMif^,v]-r_K4n(WlP=VQ*kg5]Zc1zYC3O=a^=ZUWTfcU?@sj2[9X@Qw)e;XQ{-Z3#N@##8DD#01VMpfb/kiRG}mOp9c]}c9L9#GRtK_9Wbh0?yPZ(1P+nwi_H*E4WY#?=4nSH2,G+wa4=QpF$TO(y@$Z}g?*ct9=#=%a/m^D(($N34Apr%Rr7X1k9S#{(b^#@8/PGd[3.m5ROsX=6YvKPlqL!!8z6tF4c6H%g49/)j#GcDUY)IoO)i;u2iH85n5+QIbTP%0(.MeA]h8rdcp^1WjQGEepD8LMKeSe:j84Iav[2UOc$V-#/WIK7Bqwc[laM*S*0].2uHoKXUG=Pu/5-8Mlq2cLoOH[BD0p.Ft_{1eUg8=WV.xG!1=8cwjgaSEg:k=EnCvYk]Fg?1p]/gEqyErkT.8:pIvLU;eLcg#Soi,DkTEC@^kn?x,Gw}BR1%OiEK+Y?+h^dMU}ix5v?h$d#AAbU6/ENum(lir#k.b.O5SB,LD$R7bj3tBPIcGazb@9d]-SY$b?_rxPS6R12G[kt*H){zM!vb}IgJwY;V;8,cc+tsql4$;UhbAh54UpDei74o0rQs4ug!Qnb!QRUTz%9I],Ql3yW5R_.};nv[lhH=YFpD$oXjb1N-uReyDXdvmdMm5=b;bcir#jd8GYNHqaChx^OE-9W@l_kKk}a3(i%u[buw^i^WNu}[8+7Q!i39@8@?WSYsy!-U-tg}?_!z,]AOJ^f:NO3erli_wYp8tY_EHBWsb!rv@AN6h^#YuPK_A#N-d,}626AZ[(Qp,iYsWsOTOpY!Bdq')()
+
+[DISABLE]
+
+decodeFunction('c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+42)bqJDAJF2[*DU92nvq92n#r7#i3b92is[8W]9PI50Q?6^/KeFsd.$Ft7sEu=RR8XQ!5gB@Ct}WtJtDq[Xe[Bvz(+RvH-=m;QWH8nJLV:j0csI:iy*CYF{uI}EtG/_gH(vZ$2i6^V)U7MG,J6/6ja/;zRm/)Fx4rKBe2/m4wqIE*O}005x?DIo')()
+</AssemblerScript>
+              <Hotkeys>
+                <Hotkey OnlyWhileDown="1">
+                  <Action>Toggle Activation</Action>
+                  <Keys>
+                    <Key>5</Key>
+                  </Keys>
+                  <ID>0</ID>
+                </Hotkey>
+              </Hotkeys>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>26421</ID>
+              <Description>"Stamina"</Description>
+              <ShowAsSigned>1</ShowAsSigned>
+              <Color>6400C8</Color>
+              <VariableType>Double</VariableType>
+              <Address>clientp</Address>
+              <Offsets>
+                <Offset>C38</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>26422</ID>
+              <Description>"HP"</Description>
+              <ShowAsSigned>1</ShowAsSigned>
+              <Color>6400C8</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>clientp</Address>
+              <Offsets>
+                <Offset>800</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>115223</ID>
+              <Description>"Max HP"</Description>
+              <ShowAsSigned>1</ShowAsSigned>
+              <Color>6400C8</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>clientp</Address>
+              <Offsets>
+                <Offset>90</Offset>
+                <Offset>A40</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>26412</ID>
+              <Description>"Alive"</Description>
+              <ShowAsSigned>1</ShowAsSigned>
+              <Color>6400C8</Color>
+              <VariableType>Byte</VariableType>
+              <Address>clientp</Address>
+              <Offsets>
+                <Offset>C99</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>115221</ID>
+              <Description>"Can interact"</Description>
+              <ShowAsSigned>1</ShowAsSigned>
+              <Color>6400C8</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>clientp</Address>
+              <Offsets>
+                <Offset>798</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>113694</ID>
+              <Description>"Hand item state | Ammo"</Description>
+              <ShowAsSigned>1</ShowAsSigned>
+              <Color>6400C8</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>clientp</Address>
+              <Offsets>
+                <Offset>870</Offset>
+              </Offsets>
+              <Hotkeys>
+                <Hotkey>
+                  <Action>Increase Value</Action>
+                  <Keys>
+                    <Key>187</Key>
+                  </Keys>
+                  <Value>1</Value>
+                  <ID>0</ID>
+                </Hotkey>
+                <Hotkey>
+                  <Action>Decrease Value</Action>
+                  <Keys>
+                    <Key>189</Key>
+                  </Keys>
+                  <Value>1</Value>
+                  <ID>1</ID>
+                </Hotkey>
+              </Hotkeys>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>113618</ID>
+              <Description>"[Hand item]"</Description>
+              <Options moHideChildren="1"/>
+              <Color>6400C8</Color>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>113639</ID>
+                  <Description>"ID [can edit]"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>6400C8</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>690</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113619</ID>
+                  <Description>"Name"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>6400C8</Color>
+                  <VariableType>String</VariableType>
+                  <Length>25</Length>
+                  <Unicode>1</Unicode>
+                  <CodePage>0</CodePage>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>30</Offset>
+                    <Offset>690</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113620</ID>
+                  <Description>"Can Inventory"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>6400C8</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>190</Offset>
+                    <Offset>690</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113627</ID>
+                  <Description>"Damage"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>6400C8</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>30</Offset>
+                    <Offset>2C8</Offset>
+                    <Offset>690</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113629</ID>
+                  <Description>"Stun"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>6400C8</Color>
+                  <VariableType>Double</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>38</Offset>
+                    <Offset>2C8</Offset>
+                    <Offset>690</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113630</ID>
+                  <Description>"Crit damage"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>6400C8</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>40</Offset>
+                    <Offset>2C8</Offset>
+                    <Offset>690</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113632</ID>
+                  <Description>"Crit stun"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>6400C8</Color>
+                  <VariableType>Double</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>48</Offset>
+                    <Offset>2C8</Offset>
+                    <Offset>690</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113635</ID>
+                  <Description>"Cooldown"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>6400C8</Color>
+                  <VariableType>Double</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>60</Offset>
+                    <Offset>2C8</Offset>
+                    <Offset>690</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113636</ID>
+                  <Description>"Range"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>6400C8</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>68</Offset>
+                    <Offset>2C8</Offset>
+                    <Offset>690</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>116187</ID>
+                  <Description>"[Gun]"</Description>
+                  <Options moHideChildren="1"/>
+                  <Color>6400C8</Color>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>116230</ID>
+                      <Description>"Damage"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>2C8</Offset>
+                        <Offset>690</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116232</ID>
+                      <Description>"Crit damage"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>2CC</Offset>
+                        <Offset>690</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116233</ID>
+                      <Description>"Fire rate"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>2D8</Offset>
+                        <Offset>690</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116234</ID>
+                      <Description>"Auto"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Byte</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>2E0</Offset>
+                        <Offset>690</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116188</ID>
+                      <Description>"Stand Precision"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>320</Offset>
+                        <Offset>690</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116189</ID>
+                      <Description>"Stand Oscillation"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>328</Offset>
+                        <Offset>690</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116190</ID>
+                      <Description>"Walk Precision"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>330</Offset>
+                        <Offset>690</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116191</ID>
+                      <Description>"Walk Oscillation"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>338</Offset>
+                        <Offset>690</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116192</ID>
+                      <Description>"Run Precision"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>340</Offset>
+                        <Offset>690</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116193</ID>
+                      <Description>"Run Oscillation"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>348</Offset>
+                        <Offset>690</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116194</ID>
+                      <Description>"Air Precision"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>350</Offset>
+                        <Offset>690</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116199</ID>
+                      <Description>"Precision Reactivity"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>360</Offset>
+                        <Offset>690</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116195</ID>
+                      <Description>"Recoil"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>3A8</Offset>
+                        <Offset>690</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116196</ID>
+                      <Description>"Spread"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>3B0</Offset>
+                        <Offset>690</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116197</ID>
+                      <Description>"Effects"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>3B8</Offset>
+                        <Offset>690</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>113695</ID>
+              <Description>"Bag item state | Ammo"</Description>
+              <ShowAsSigned>1</ShowAsSigned>
+              <Color>6400C8</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>clientp</Address>
+              <Offsets>
+                <Offset>880</Offset>
+              </Offsets>
+              <Hotkeys>
+                <Hotkey>
+                  <Action>Increase Value</Action>
+                  <Keys>
+                    <Key>17</Key>
+                    <Key>187</Key>
+                  </Keys>
+                  <Value>1</Value>
+                  <ID>0</ID>
+                </Hotkey>
+                <Hotkey>
+                  <Action>Decrease Value</Action>
+                  <Keys>
+                    <Key>17</Key>
+                    <Key>189</Key>
+                  </Keys>
+                  <Value>1</Value>
+                  <ID>1</ID>
+                </Hotkey>
+              </Hotkeys>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>113599</ID>
+              <Description>"[Bag item]"</Description>
+              <Options moHideChildren="1"/>
+              <Color>6400C8</Color>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>113600</ID>
+                  <Description>"ID [can edit]"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>6400C8</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>878</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113601</ID>
+                  <Description>"Name"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>6400C8</Color>
+                  <VariableType>String</VariableType>
+                  <Length>25</Length>
+                  <Unicode>1</Unicode>
+                  <CodePage>0</CodePage>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>30</Offset>
+                    <Offset>878</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113637</ID>
+                  <Description>"Can Inventory"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>6400C8</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>190</Offset>
+                    <Offset>878</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113607</ID>
+                  <Description>"Damage"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>6400C8</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>30</Offset>
+                    <Offset>2C8</Offset>
+                    <Offset>878</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113609</ID>
+                  <Description>"Stun"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>6400C8</Color>
+                  <VariableType>Double</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>38</Offset>
+                    <Offset>2C8</Offset>
+                    <Offset>878</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113610</ID>
+                  <Description>"Crit damage"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>6400C8</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>40</Offset>
+                    <Offset>2C8</Offset>
+                    <Offset>878</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113612</ID>
+                  <Description>"Crit stun"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>6400C8</Color>
+                  <VariableType>Double</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>48</Offset>
+                    <Offset>2C8</Offset>
+                    <Offset>878</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113615</ID>
+                  <Description>"Cooldown"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>6400C8</Color>
+                  <VariableType>Double</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>60</Offset>
+                    <Offset>2C8</Offset>
+                    <Offset>878</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113616</ID>
+                  <Description>"Range"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>6400C8</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>68</Offset>
+                    <Offset>2C8</Offset>
+                    <Offset>878</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>116235</ID>
+                  <Description>"[Gun]"</Description>
+                  <Options moHideChildren="1"/>
+                  <Color>6400C8</Color>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>116236</ID>
+                      <Description>"Damage"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>2C8</Offset>
+                        <Offset>878</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116237</ID>
+                      <Description>"Crit damage"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>2CC</Offset>
+                        <Offset>878</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116238</ID>
+                      <Description>"Fire rate"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>2D8</Offset>
+                        <Offset>878</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116239</ID>
+                      <Description>"Auto"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Byte</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>2E0</Offset>
+                        <Offset>878</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116240</ID>
+                      <Description>"Stand Precision"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>320</Offset>
+                        <Offset>878</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116241</ID>
+                      <Description>"Stand Oscillation"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>328</Offset>
+                        <Offset>878</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116242</ID>
+                      <Description>"Walk Precision"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>330</Offset>
+                        <Offset>878</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116243</ID>
+                      <Description>"Walk Oscillation"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>338</Offset>
+                        <Offset>878</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116244</ID>
+                      <Description>"Run Precision"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>340</Offset>
+                        <Offset>878</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116245</ID>
+                      <Description>"Run Oscillation"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>348</Offset>
+                        <Offset>878</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116246</ID>
+                      <Description>"Air Precision"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>350</Offset>
+                        <Offset>878</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116247</ID>
+                      <Description>"Precision Reactivity"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>360</Offset>
+                        <Offset>878</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116248</ID>
+                      <Description>"Recoil"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>3A8</Offset>
+                        <Offset>878</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116249</ID>
+                      <Description>"Spread"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>3B0</Offset>
+                        <Offset>878</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116250</ID>
+                      <Description>"Effects"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>6400C8</Color>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>3B8</Offset>
+                        <Offset>878</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>113462</ID>
+          <Description>"👁Visual"</Description>
+          <Options moHideChildren="1"/>
+          <Color>969600</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>116120</ID>
+              <Description>"No screen fade"</Description>
+              <Color>969600</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+if syntaxcheck then return end
+[ENABLE]
+
+decodeFunction('c-n:L%{yIJ5XT+}jZ#a99)tijm8C^#S1ib0k[d8gSd_lpR7mttp}}wFbirOn[6Cw$-k}qlH!I$38iG^9$nwX]=;]:U[AVyk67Bxp#-DJ_3R/n^6=)StkvCAoZw=m6t?nOvB94A=jy]iVZ[YVt@Eqn%.b]E(Hb.$pG*M0_7kn7Fdnm7j9oqaslo0F.#cU+I38men%aWj#D(rvi8f:S6X$H:L(J:w7]*#YfU6^.CQD]%oC/vXj07ZOZ/o)Dz7DH:FBaJ%zo*@8(.pMM/JkE;TBbY+beoW^(VT[zHl6DAXgi:2uER-@]%A]TZZAK{L;$DNZN?SoyX,^t([ZG@DEuvM#T9BnDYkeORBK4U3uyT69POjrG*O,p/AXSbR!E^3};1,yaQugR_9Ns7,%7}pNuTiHbD}cX/UqW^tT0RTo%2(Nfn,NA:Ev/}DzQU;2y]]Z3m5N@o-.%8TLT9a#WKl{CD#fRG9b3D#ZdZTltvlflg(C7$Ttj]o-sY_Z;t.GLD+V@t2Kt^p0jh-2R^')()
+
+[DISABLE]
+
+decodeFunction('c-n1=K{+9x6og.O8sb9HgO@s2cPP?^cB8%Y@kT3l4+^W9+*$I,ZW]E4T64;P:pXW?x!Qvlhhdn3Z+E@Y@9qyGSWcx#M3Q]N.7^]-MG%D_f9L2jL/_IPL}uti!}=.M28h21vH.EqqI)$NB5;k5@B;%9j4RykU_JSeh3PBPr%El.rA_eX,s1SLEXJm5o6LKzOUpNf-#X@}N,MPzt^,gXQEPnCm[MS?s8q0(-QMy0(bRD+Uzd%YpKl9Uv9Y$/^[L9Tg@b]oeFNxpGz$')()
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>116213</ID>
+              <Description>"Esp"</Description>
+              <Color>969600</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+if syntaxcheck then return end
+[ENABLE]
+
+main.setLayeredAttributes(1,1,1) main.color = 1
+
+local proc = getOpenedProcessID()
+
+local w,h = executeCodeLocalEx('user32.GetSystemMetrics',0)/2,executeCodeLocalEx('user32.GetSystemMetrics',1)/2
+
+local x,y,z
+local camX,camY
+local tX,tY,tZ
+
+local str,off = '[[[[[[[[[clientp]+2C8]+330]+78]+78]+158]+2A8]+'
+
+local exc,a,b,aX,aY = readString('[[clientp]+1120]+0',50,true)
+local color,plrs,dtext,role,alive,hand,bag,name,off
+
+esp = createTimer()
+esp.Interval = 1
+esp.OnTimer = function()
+  if not readByte('[clientp]') then return end
+
+  x = readDouble('[[clientp]+3A0]+260')
+  y = readDouble('[[clientp]+3A0]+268')
+  z = readDouble('[[clientp]+3A0]+270')
+  camX = readDouble('[clientp]+DF8')
+  camY = readDouble('[clientp]+DF0')
+
+  plrs = readInteger('[[[[[[clientp]+2C8]+330]+78]+78]+158]+2B0')
+
+  if not plrs then return end
+  exc = readString('[[clientp]+1120]+0',50,true)
+  off = 0
+  for i = 1, plrs do
+    name = readString(str..off..']+388]+0',50,true)
+
+    role = readInteger(str..off..']+308]+C09')
+    if name ~= exc then
+      dtext = ''
+
+      color = readInteger(str..off..']+308]+11D8')
+      if color == 1 then color = 255
+        elseif color == 2 then color = 357574
+        elseif color == 3 then color = 65535
+        elseif color == 4 then color = 65280
+        elseif color == 5 then color = 16776960
+        elseif color == 6 then color = 16724530
+        elseif color == 7 then color = 13129135
+        elseif color == 8 then color = 10192066
+        elseif color == 9 then color = 16777215
+      end
+
+      alive = readByte(str..off..']+308]+C9A')
+      if alive == 1 then dtext = '❤ '
+      else dtext = '💀 ' color = 13158600 end
+
+      if role == 4 then dtext = '⚔ '..dtext
+      elseif role == 5 then dtext = '👁 '..dtext end
+
+      hand = readString('[['..str..off..']+308]+10D8]+30]+0',50,true)
+      bag = readString('[['..str..off..']+308]+1188]+30]+0',50,true)
+      if hand == nil then hand = '' end
+      if bag == nil then bag = '' end
+      dtext = dtext..name
+      if hand ~= '' or bag ~= '' then
+        dtext = dtext..'\n'
+      end
+      if hand ~= '' then
+        dtext = dtext..hand
+      end
+      if bag ~= '' then
+        dtext = dtext..' | '..bag
+      end
+
+      tX = readDouble(str..off..']+308]+588')
+      if not tX then return end
+      tY = readDouble(str..off..']+308]+590')
+      tZ = readDouble(str..off..']+308]+598')
+      a = camX-math.deg(math.atan2(tY-y,tX-x))
+      tX = tX-x
+      tY = tY-y
+      dist = math.sqrt((tX*tX)+(tY*tY))
+      b = camY-math.deg(math.atan2(tZ-z,dist))
+      if a &lt;= 360 and a &gt;= 300 then a = (a - 360)
+      elseif a &gt; 360 then a = a % 360 end
+      size = 20-(dist/500)
+      if size &lt; 8 then size = 8 end
+
+      print(main.ComponentCount)
+      for j = 1, main.ComponentCount-1 do
+        if main.Component[j].Name == 'esp'..j then main.Component[i].destroy() end
+      end
+
+      --if espt then espt.destroy() end
+      espt = createLabel(main)
+
+      espt.Name = 'esp'..i
+      espt.Font.Size = size
+      espt.Caption = dtext
+      espt.Font.Color = color
+      espt.Left = w - (a*15) - (espt.Width/2)
+      espt.Top = h + (b*15) + (espt.Height/2)
+
+      if espt.Name == '' then espt.destroy() end
+    end
+    if string.find(off,'0') then off = off+8
+    elseif string.find(off,'8') then off = off+2 end
+  end
+  if getForegroundProcess() ~= proc then
+    if main.visible == true then main.visible = false end
+  else
+    if main.visible == false then main.visible = true end
+  end
+end
+
+[DISABLE]
+
+esp.destroy()
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>113696</ID>
+              <Description>"Freecamera"</Description>
+              <Options moHideChildren="1"/>
+              <Color>969600</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+if syntaxcheck then return end
+[ENABLE]
+
+decodeFunction('c-pO2ZBN?*6h3xt,}AgUYAa3Mq^]aR1R_{RkU-T;wiB^dMI%{eorX_l;]Uv[FPZHC]F4Xe[VRWAVB(^[z3@ebqyJ,([d2gFl{I(9xt#a(oMYc{[.jmlx8eS8i_QvTDUd=pWEUpS@06U-gv7UkRV#QXV89E+fCmOJg(DA9Fi-^tm{uBXbL6EQ,ST!Q#!R;zm}hTO]W@WP04xU#(cK2TLl+K(q?{)LZ.*0b3)N{^miizyk=vz87wI#kFU%aABYoMggY-uZ-XN^W4KOXti6NBJ1{vR2D8T8?iq!zsy7-0v@/?NZ$-gSrCYYyrVfzJQ[!#k!kIdvXO=U0M6=.c@O3Ce)-E-_.Mb}SUTDd_Bbw5gIeUqriv6oV-$8Gi.-:ksL+/UT_HT_wM;:s$^l4rEnifNKimngf;UNo!ZW:w6j5p?rIO787VT-Qu{f3;o%UnP8eg;XYB#fhxZd[2qQMCFN@eq@VlaOku/lw)MIN.?QX:#X0u;QlPo1vDlLPs5bPN48H2,hHbJw7Y3!BJu!^-uqXQv!d,iAaU$4h{@DEmmNF!uCx[7uifZ4Y^gL.Ig$VHxfiZiAGTk4osJj2d[,%Zsan/ardBR%*]qsBYkEb}?zhsT*wd6+F9O9hMV=bnR89Ln:x9SJa$)fb+3:;Y1WSAAC5Slb1qV@*jjprU4r5ADF)/sHwmuEd[Wj7:p#mC_mdd*WmxggC(=A=w3}2/^jl.2O+mmTz2*r%[;*MN5Z=#gd=w3B-d8t()9I/*}#.t/rsM_=0L!CePW$c$uf{mU+[GaWU%*y:9AGGB_^:!$+Y9b{aIqGGGVBE@g^hdyZi,fu;swDfk#d!yRmF!FZXE,E/17Ha,=q@1Jx%tK7L%_$m?]VwP5i%Yxs$qi3Mm(:g91u,$0wN9^5*4:#/,lwB#)FlTA8/X$o2XmFyckm!HUn!4i@Q[H@)+}})_+RZO?Zf?o2)9B4+tXeR*=RUA@nYYoFjIZ0sM(m,l*b$o5;h6C,v.Cu3-.3j@SN/kltgTVPuUD!dRRWV^uN5GkqLPW6V!5UaK!t7[U[m/g*j;]9V30bLJeqJH?}yf;{@5@F:540p{q%:J94AFZBFA,}+f(fe(Y}J:F2ko;;j@(-U4Evw,+C^ngXv(Ru!5j*bUX.[{KPRVO$3x(8IdH]]l6?_?%YJAFln6D5Siwo6Fjg,kR9rzy=]xg}br_FXkwWaA]^tNw.WBw75c?ZRS=s%a1h')()
+
+[DISABLE]
+
+decodeFunction('c-n1[K{+9x6olW{C5DC4f=iaRJ(07jY)itf)/a59JQRc.6p;BxDxpauyBlk6?i,K}]qNAlQP4RI-?v?b9Nkpv77pI}=2u8Hy6*:(el+%h0.Gk)XY37Ib3nqQlyEGeaT+CHvH?o,VHd)LmLY?/fwwK]GI1b,Q0{x0/P.iU=GHK)%=j.8;AB8cltnt2t2$M,FGS!6o:?FrUK+TU*7}/nZi;e0vZidKGmBB)9o#2+hHLx$aN(tS=0rwBeO1^qGzN/{$Nkk)BPOc2Vw_TjACI{1anIw=j9(@ad?foSjJ1]!Kb.Am^O)k1jZc{es7,nOWj.DTV:1aUFOv:l^HG5$WJrw')()
+</AssemblerScript>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>113698</ID>
+                  <Description>"Speed"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Float</VariableType>
+                  <Address>fcSpeed</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>26406</ID>
+              <Description>"FieldOfView"</Description>
+              <ShowAsSigned>1</ShowAsSigned>
+              <Color>969600</Color>
+              <VariableType>Float</VariableType>
+              <Address>clientp</Address>
+              <Offsets>
+                <Offset>2A0</Offset>
+                <Offset>3A0</Offset>
+              </Offsets>
+              <Hotkeys>
+                <Hotkey OnlyWhileDown="1">
+                  <Action>Set Value</Action>
+                  <Keys>
+                    <Key>90</Key>
+                  </Keys>
+                  <Value>15</Value>
+                  <ID>0</ID>
+                </Hotkey>
+              </Hotkeys>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>113689</ID>
+              <Description>"[Camera]"</Description>
+              <Options moHideChildren="1"/>
+              <Color>969600</Color>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>26417</ID>
+                  <Description>"Camera Pitch"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>969600</Color>
+                  <VariableType>Double</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>DF0</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>26418</ID>
+                  <Description>"Camera Yaw"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>969600</Color>
+                  <VariableType>Double</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>DF8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113690</ID>
+                  <Description>"Cam X"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>969600</Color>
+                  <VariableType>Double</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>260</Offset>
+                    <Offset>3A0</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113692</ID>
+                  <Description>"Cam Y"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>969600</Color>
+                  <VariableType>Double</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>268</Offset>
+                    <Offset>3A0</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113691</ID>
+                  <Description>"Cam Z"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>969600</Color>
+                  <VariableType>Double</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>270</Offset>
+                    <Offset>3A0</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>113463</ID>
+          <Description>"🥾Movement"</Description>
+          <Options moHideChildren="1"/>
+          <Color>0064C8</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>113541</ID>
+              <Description>"Noclip"</Description>
+              <Options moHideChildren="1"/>
+              <Color>0064C8</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$LUA}
+if syntaxcheck then return end
+[ENABLE]
+
+decodeFunction('c-oy,!EW0_5FJV?g/;K)fZIb-G$4wgkZUKP6sb@hB1M[45u+_,!#M/jL6aMs3B[eeDvoZOqIN%@^RDrA45U8f)x1qGw6i27%ZOW8A.9Ilotd_f,{Yt+,hcnOcmAj/cNHQNS$=_/7gzmAmq0={hZI*6#-R+4=CCn)){9/^4*:8q/+5z@2Hxi(S!ln+G#Bj=w9mK%r*a,i#AgPazT/Fibm1dD/+D?BxzvRZXWe7+,$aEikP0W}h6(QIMfixM-vWmfT$kK7.?33UwWC4gy_EKYRtEOOwI?wYYd71CCXr2[#njv,HzR7hJvQF:DXBhp7;nFEe6jvWyM#K6sHKtB1Df/h8c:r-F@9)SR+(2WnB#jPx#b^bLU,6ojYwrHNNDuN[E*9,I{y1bWWK6BPM8tLbcBn4?z0-mgzfvxsR!XOq{1K$tSL%vKT%ZG^Y9/6@qHNkwKYYF:z$j[e;?rOGk:zY88,LG9Xl8=ckI*8z,NKh#x]=ayX,]H$q93q_KOPyeBXL7JoLiQ3l1LAw^+j5s.x):W}uGRYP,SH4Yi;mpKtF_zb.rJng}THqY)6J6sq_:qJV^JQ[1m?PxPf)SI7(.?![?PH9JCEqoHc1,S622o55B}z:o![I(-yxbf#9:;sn)bICtfO,e)hF5G+]vO13lUsNnrwwvm756;jK_R]WNA={3z6I[I#7*wrjNIpCr*7c0MlbSc)nm]i1DfH9r;3uWknrFSp5Iq)wBukbF,^nG^iRQP#e6Ma:(7df+SFtZpv+O(5_SLW3g@Y})nEY;bsQxgyPdpN:8=_M*A3+X{uZ#:/pjQM=h=](--B4-xQuM@KjeBsl0^$KI:]{aOeV^J*_wIwxP]i?u$7aB[!8u@mn5w52),uzSyv$o]#v%M=xO_0FLm?i[Nmr^)U.}0H(tf#mjus9EQ#UZMQ^?a}ki(mav]:mh/z93(;d$kxI#*yrBS(O}Ys%!J$@]6za3@k(NNK3RyBIiw!RK55qoeUymLR8s)x.OlB%i38j%:(UVH8Aj;P)sTjH@tchY3Jwub}@Knlty-PNQlE=LL%EGB:(.THB3h%9ed:}QRF3b+=*=h@[a3$l!#Q43ivaX.D4?v0YV7N-2')()
+
+[DISABLE]
+
+decodeFunction('c-nQ0K{+9h9L4^Y)3Rj(#ES{(gUE*Lq[zh:rBrwFFc_DA:@C__HKj=Nz4bfzP5cCYG{BJlL4AkEdk:o@=4c10IQbakQ.Y%;1n+1OX_mxScrF_bb#LF94.(sjhjR^^-+LF$9r#{yMv!bXPax=$m%,P*(g{r]Ffp(vE:4]Bi#K5/I,%,#7i}ys9L6j{L8]Qo:^+^idZmgA1-Ue}*-4*}#[Gfvxz3b4^%p!xJ^QKy,O,FTt4UccDk/_R(ZSUFuXY12@@::!F)G,IW,92L37wJnhQtv]8DSLT-++Euz+S;jt_/HA9myD;DY;Kl+S1DcU.jDk]6;3]FMR[T.aVL')()
+</AssemblerScript>
+              <Hotkeys>
+                <Hotkey>
+                  <Action>Toggle Activation</Action>
+                  <Keys>
+                    <Key>6</Key>
+                  </Keys>
+                  <ID>0</ID>
+                </Hotkey>
+              </Hotkeys>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>113588</ID>
+                  <Description>"Speed"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>AF7DFF</Color>
+                  <VariableType>Float</VariableType>
+                  <Address>npSpeed</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>26420</ID>
+              <Description>"[Coordinates]"</Description>
+              <Options moHideChildren="1"/>
+              <Color>0064C8</Color>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>961</ID>
+                  <Description>"Mec X"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>0064C8</Color>
+                  <VariableType>Double</VariableType>
+                  <Address>coordsp</Address>
+                  <Offsets>
+                    <Offset>30</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>962</ID>
+                  <Description>"Mec Y"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>0064C8</Color>
+                  <VariableType>Double</VariableType>
+                  <Address>coordsp</Address>
+                  <Offsets>
+                    <Offset>38</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>963</ID>
+                  <Description>"Mec Z"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>0064C8</Color>
+                  <VariableType>Double</VariableType>
+                  <Address>coordsp</Address>
+                  <Offsets>
+                    <Offset>40</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>26404</ID>
+              <Description>"Run speed"</Description>
+              <ShowAsSigned>1</ShowAsSigned>
+              <Color>0064C8</Color>
+              <VariableType>Double</VariableType>
+              <Address>clientp</Address>
+              <Offsets>
+                <Offset>8C8</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>115228</ID>
+              <Description>"Acceleration"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>0064C8</Color>
+              <VariableType>Byte</VariableType>
+              <Address>clientp</Address>
+              <Offsets>
+                <Offset>C98</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>115227</ID>
+              <Description>"Net hands up"</Description>
+              <ShowAsSigned>1</ShowAsSigned>
+              <Color>0064C8</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>clientp</Address>
+              <Offsets>
+                <Offset>BE1</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>115494</ID>
+              <Description>"Net On Tablet"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>0064C8</Color>
+              <VariableType>Byte</VariableType>
+              <Address>clientp</Address>
+              <Offsets>
+                <Offset>BF9</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>113464</ID>
+          <Description>"💧Specific"</Description>
+          <Options moHideChildren="1"/>
+          <Color>009696</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>115495</ID>
+              <Description>"Overlay"</Description>
+              <Color>009696</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+if syntaxcheck then return end
+[ENABLE]
+
+decodeFunction('c-nnY-*j;:5T3nEE_:J/kor*oF-R/eFEJ2_Z,l4@Y$-IL6ro7D/d+a;xeIrj+nkfkw6+X48}zb?m[N,fZ9=[Mh1s2Ne)W(cw_6{A-ox)C=b72CI[Nl.r+L.)e(GxlIZq5M=9ycehjY%M!a;:JLyar2Qw^{i!KLygSw;dlVCi@=yWi}8g[:@)1.u*98}mjLhqLcJ*]p_3eWl-DH0Nl@uJ:K}HqF6?Zt[^kQ!nnv!Q7JqAN0M2=:2ejdb81d-9V:@juO#1!2HAuLVT16dF)AjEPPkWI2g;NNXl%z3fjYH9K}2333*OVq44^0G!#j4+u]8l$E^(3Xvl_PB4R8ahEl_HZ)J@I,MSco/Zk}n[dT+b1D(QJCWQhK/0[zKffY=GGo*zz4%E[4Q,Q7C3P*vfifw9^oe}CXjTOsNoy#q[rk,e$kS8hJ%z]VXSjKYjG-Y6B?ZV5S9XKGr#MKWQR*%cC*.XtHiYZgWyYNhPp#qk^rF3.u.eX{Q=yaagr(c#wh#kFpE:n-)YXx#IKB9f$O)qd.5naBfX,)V8KO2q%5z6VOSFJboe[+SQMP1rnQ2*-@U8d2l*AhE6Sp8bXV*eoceeF5bfj80*Rwv0=,PoB)5{lzpl_e+GlZL%07Na/tg(Q5wnFmQQ7z?T2Xzu6%mSf1@f9DUGmZat')()
+
+[DISABLE]
+
+decodeFunction('c-n2tu=m7v6vpvm9rYrFtravyG?9UkZqn8u1g;$)3rVG,H]DD7y,JSJqa]-f)0{?U!#CUA#U3WFku!CWA!Bt6-(PMY!02H0bKv$QI1s@^KwFw%K@m-/zy_(=aj@A_TMiCwo:ec,bblQ4?,=(;il_5^p)MJIXcE!+o*]GR,D8@%?:{Id9Of0WM3$/@8#J#X(Coohi9{P$S_K{%n?aNx4Fmr51[qQUh5')()
+</AssemblerScript>
+              <Hotkeys>
+                <Hotkey>
+                  <Action>Toggle Activation</Action>
+                  <Keys>
+                    <Key>45</Key>
+                  </Keys>
+                  <ID>0</ID>
+                </Hotkey>
+              </Hotkeys>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>116219</ID>
+              <Description>"[Player state]"</Description>
+              <Options moHideChildren="1"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>116157</ID>
+                  <Description>"Color"</Description>
+                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:black
+1:red
+2:orange
+3:yellow
+4:green
+5:cyan
+6:blue
+7:purple
+8:pink
+9:white
+</DropDownList>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>11D8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>26413</ID>
+                  <Description>"Speed"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>B80</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>116217</ID>
+                  <Description>"Ping"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>298</Offset>
+                    <Offset>2B0</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>116220</ID>
+                  <Description>"Unique id"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>2C0</Offset>
+                    <Offset>2B0</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>116225</ID>
+                  <Description>"Player id"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>294</Offset>
+                    <Offset>2B0</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>116224</ID>
+                  <Description>"Name"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>String</VariableType>
+                  <Length>25</Length>
+                  <Unicode>1</Unicode>
+                  <CodePage>0</CodePage>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>1120</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>116222</ID>
+                  <Description>"Name lenght"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>1128</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>116221</ID>
+                  <Description>"Name private"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>String</VariableType>
+                  <Length>25</Length>
+                  <Unicode>1</Unicode>
+                  <CodePage>0</CodePage>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>388</Offset>
+                    <Offset>2B0</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>116223</ID>
+                  <Description>"Name private lenght"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>390</Offset>
+                    <Offset>2B0</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>116185</ID>
+              <Description>"[Player tab]"</Description>
+              <Options moHideChildren="1"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>113642</ID>
+                  <Description>"Players amount"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>2B0</Offset>
+                    <Offset>158</Offset>
+                    <Offset>78</Offset>
+                    <Offset>78</Offset>
+                    <Offset>330</Offset>
+                    <Offset>2C8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113677</ID>
+                  <Description>""</Description>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113646</ID>
+                  <Description>"1 Name"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>String</VariableType>
+                  <Length>25</Length>
+                  <Unicode>1</Unicode>
+                  <CodePage>0</CodePage>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>388</Offset>
+                    <Offset>0</Offset>
+                    <Offset>2A8</Offset>
+                    <Offset>158</Offset>
+                    <Offset>78</Offset>
+                    <Offset>78</Offset>
+                    <Offset>330</Offset>
+                    <Offset>2C8</Offset>
+                  </Offsets>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>113648</ID>
+                      <Description>"1 Role"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">1:Not ready
+2:Ready
+3:Employee
+4:Dissident
+5:Spectator
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>C09</Offset>
+                        <Offset>308</Offset>
+                        <Offset>0</Offset>
+                        <Offset>2A8</Offset>
+                        <Offset>158</Offset>
+                        <Offset>78</Offset>
+                        <Offset>78</Offset>
+                        <Offset>330</Offset>
+                        <Offset>2C8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116177</ID>
+                      <Description>"1 Net alive"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">1:Yes
+0:No
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>C9A</Offset>
+                        <Offset>308</Offset>
+                        <Offset>0</Offset>
+                        <Offset>2A8</Offset>
+                        <Offset>158</Offset>
+                        <Offset>78</Offset>
+                        <Offset>78</Offset>
+                        <Offset>330</Offset>
+                        <Offset>2C8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116201</ID>
+                      <Description>"1 X"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>588</Offset>
+                        <Offset>308</Offset>
+                        <Offset>0</Offset>
+                        <Offset>2A8</Offset>
+                        <Offset>158</Offset>
+                        <Offset>78</Offset>
+                        <Offset>78</Offset>
+                        <Offset>330</Offset>
+                        <Offset>2C8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116202</ID>
+                      <Description>"1 Y"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>590</Offset>
+                        <Offset>308</Offset>
+                        <Offset>0</Offset>
+                        <Offset>2A8</Offset>
+                        <Offset>158</Offset>
+                        <Offset>78</Offset>
+                        <Offset>78</Offset>
+                        <Offset>330</Offset>
+                        <Offset>2C8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116226</ID>
+                      <Description>"1 Z"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>598</Offset>
+                        <Offset>308</Offset>
+                        <Offset>0</Offset>
+                        <Offset>2A8</Offset>
+                        <Offset>158</Offset>
+                        <Offset>78</Offset>
+                        <Offset>78</Offset>
+                        <Offset>330</Offset>
+                        <Offset>2C8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113676</ID>
+                  <Description>""</Description>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113649</ID>
+                  <Description>"2 Name"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>String</VariableType>
+                  <Length>25</Length>
+                  <Unicode>1</Unicode>
+                  <CodePage>0</CodePage>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>388</Offset>
+                    <Offset>8</Offset>
+                    <Offset>2A8</Offset>
+                    <Offset>158</Offset>
+                    <Offset>78</Offset>
+                    <Offset>78</Offset>
+                    <Offset>330</Offset>
+                    <Offset>2C8</Offset>
+                  </Offsets>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>113651</ID>
+                      <Description>"2 Role"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">1:Not ready
+2:Ready
+3:Employee
+4:Dissident
+5:Spectator
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>C09</Offset>
+                        <Offset>308</Offset>
+                        <Offset>8</Offset>
+                        <Offset>2A8</Offset>
+                        <Offset>158</Offset>
+                        <Offset>78</Offset>
+                        <Offset>78</Offset>
+                        <Offset>330</Offset>
+                        <Offset>2C8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116178</ID>
+                      <Description>"2 Net alive"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">1:Yes
+0:No
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>C9A</Offset>
+                        <Offset>308</Offset>
+                        <Offset>8</Offset>
+                        <Offset>2A8</Offset>
+                        <Offset>158</Offset>
+                        <Offset>78</Offset>
+                        <Offset>78</Offset>
+                        <Offset>330</Offset>
+                        <Offset>2C8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113678</ID>
+                  <Description>""</Description>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113654</ID>
+                  <Description>"3 Name"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>String</VariableType>
+                  <Length>25</Length>
+                  <Unicode>1</Unicode>
+                  <CodePage>0</CodePage>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>388</Offset>
+                    <Offset>10</Offset>
+                    <Offset>2A8</Offset>
+                    <Offset>158</Offset>
+                    <Offset>78</Offset>
+                    <Offset>78</Offset>
+                    <Offset>330</Offset>
+                    <Offset>2C8</Offset>
+                  </Offsets>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>113656</ID>
+                      <Description>"3 Role"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">1:Not ready
+2:Ready
+3:Employee
+4:Dissident
+5:Spectator
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>C09</Offset>
+                        <Offset>308</Offset>
+                        <Offset>10</Offset>
+                        <Offset>2A8</Offset>
+                        <Offset>158</Offset>
+                        <Offset>78</Offset>
+                        <Offset>78</Offset>
+                        <Offset>330</Offset>
+                        <Offset>2C8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116179</ID>
+                      <Description>"3 Net alive"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">1:Yes
+0:No
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>C9A</Offset>
+                        <Offset>308</Offset>
+                        <Offset>10</Offset>
+                        <Offset>2A8</Offset>
+                        <Offset>158</Offset>
+                        <Offset>78</Offset>
+                        <Offset>78</Offset>
+                        <Offset>330</Offset>
+                        <Offset>2C8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113679</ID>
+                  <Description>""</Description>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113658</ID>
+                  <Description>"4 Name"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>String</VariableType>
+                  <Length>25</Length>
+                  <Unicode>1</Unicode>
+                  <CodePage>0</CodePage>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>388</Offset>
+                    <Offset>18</Offset>
+                    <Offset>2A8</Offset>
+                    <Offset>158</Offset>
+                    <Offset>78</Offset>
+                    <Offset>78</Offset>
+                    <Offset>330</Offset>
+                    <Offset>2C8</Offset>
+                  </Offsets>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>113660</ID>
+                      <Description>"4 Role"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">1:Not ready
+2:Ready
+3:Employee
+4:Dissident
+5:Spectator
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>C09</Offset>
+                        <Offset>308</Offset>
+                        <Offset>18</Offset>
+                        <Offset>2A8</Offset>
+                        <Offset>158</Offset>
+                        <Offset>78</Offset>
+                        <Offset>78</Offset>
+                        <Offset>330</Offset>
+                        <Offset>2C8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116180</ID>
+                      <Description>"4 Net alive"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">1:Yes
+0:No
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>C9A</Offset>
+                        <Offset>308</Offset>
+                        <Offset>18</Offset>
+                        <Offset>2A8</Offset>
+                        <Offset>158</Offset>
+                        <Offset>78</Offset>
+                        <Offset>78</Offset>
+                        <Offset>330</Offset>
+                        <Offset>2C8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116208</ID>
+                      <Description>"4 Net alive"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">1:Yes
+0:No
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>11D8</Offset>
+                        <Offset>308</Offset>
+                        <Offset>18</Offset>
+                        <Offset>2A8</Offset>
+                        <Offset>158</Offset>
+                        <Offset>78</Offset>
+                        <Offset>78</Offset>
+                        <Offset>330</Offset>
+                        <Offset>2C8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113680</ID>
+                  <Description>""</Description>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113662</ID>
+                  <Description>"5 Name"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>String</VariableType>
+                  <Length>25</Length>
+                  <Unicode>1</Unicode>
+                  <CodePage>0</CodePage>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>388</Offset>
+                    <Offset>20</Offset>
+                    <Offset>2A8</Offset>
+                    <Offset>158</Offset>
+                    <Offset>78</Offset>
+                    <Offset>78</Offset>
+                    <Offset>330</Offset>
+                    <Offset>2C8</Offset>
+                  </Offsets>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>113664</ID>
+                      <Description>"5 Role"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">1:Not ready
+2:Ready
+3:Employee
+4:Dissident
+5:Spectator
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>C09</Offset>
+                        <Offset>308</Offset>
+                        <Offset>20</Offset>
+                        <Offset>2A8</Offset>
+                        <Offset>158</Offset>
+                        <Offset>78</Offset>
+                        <Offset>78</Offset>
+                        <Offset>330</Offset>
+                        <Offset>2C8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116181</ID>
+                      <Description>"5 Net alive"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">1:Yes
+0:No
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>C9A</Offset>
+                        <Offset>308</Offset>
+                        <Offset>20</Offset>
+                        <Offset>2A8</Offset>
+                        <Offset>158</Offset>
+                        <Offset>78</Offset>
+                        <Offset>78</Offset>
+                        <Offset>330</Offset>
+                        <Offset>2C8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113681</ID>
+                  <Description>""</Description>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113666</ID>
+                  <Description>"6 Name"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>String</VariableType>
+                  <Length>25</Length>
+                  <Unicode>1</Unicode>
+                  <CodePage>0</CodePage>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>388</Offset>
+                    <Offset>28</Offset>
+                    <Offset>2A8</Offset>
+                    <Offset>158</Offset>
+                    <Offset>78</Offset>
+                    <Offset>78</Offset>
+                    <Offset>330</Offset>
+                    <Offset>2C8</Offset>
+                  </Offsets>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>113668</ID>
+                      <Description>"6 Role"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">1:Not ready
+2:Ready
+3:Employee
+4:Dissident
+5:Spectator
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>C09</Offset>
+                        <Offset>308</Offset>
+                        <Offset>28</Offset>
+                        <Offset>2A8</Offset>
+                        <Offset>158</Offset>
+                        <Offset>78</Offset>
+                        <Offset>78</Offset>
+                        <Offset>330</Offset>
+                        <Offset>2C8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116182</ID>
+                      <Description>"6 Net alive"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">1:Yes
+0:No
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>C9A</Offset>
+                        <Offset>308</Offset>
+                        <Offset>28</Offset>
+                        <Offset>2A8</Offset>
+                        <Offset>158</Offset>
+                        <Offset>78</Offset>
+                        <Offset>78</Offset>
+                        <Offset>330</Offset>
+                        <Offset>2C8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113682</ID>
+                  <Description>""</Description>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113671</ID>
+                  <Description>"7 Name"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>String</VariableType>
+                  <Length>25</Length>
+                  <Unicode>1</Unicode>
+                  <CodePage>0</CodePage>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>388</Offset>
+                    <Offset>30</Offset>
+                    <Offset>2A8</Offset>
+                    <Offset>158</Offset>
+                    <Offset>78</Offset>
+                    <Offset>78</Offset>
+                    <Offset>330</Offset>
+                    <Offset>2C8</Offset>
+                  </Offsets>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>113672</ID>
+                      <Description>"7 Role"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">1:Not ready
+2:Ready
+3:Employee
+4:Dissident
+5:Spectator
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>C09</Offset>
+                        <Offset>308</Offset>
+                        <Offset>30</Offset>
+                        <Offset>2A8</Offset>
+                        <Offset>158</Offset>
+                        <Offset>78</Offset>
+                        <Offset>78</Offset>
+                        <Offset>330</Offset>
+                        <Offset>2C8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116183</ID>
+                      <Description>"7 Net alive"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">1:Yes
+0:No
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>C9A</Offset>
+                        <Offset>308</Offset>
+                        <Offset>30</Offset>
+                        <Offset>2A8</Offset>
+                        <Offset>158</Offset>
+                        <Offset>78</Offset>
+                        <Offset>78</Offset>
+                        <Offset>330</Offset>
+                        <Offset>2C8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113683</ID>
+                  <Description>""</Description>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>113673</ID>
+                  <Description>"8 Name"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>String</VariableType>
+                  <Length>25</Length>
+                  <Unicode>1</Unicode>
+                  <CodePage>0</CodePage>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>388</Offset>
+                    <Offset>38</Offset>
+                    <Offset>2A8</Offset>
+                    <Offset>158</Offset>
+                    <Offset>78</Offset>
+                    <Offset>78</Offset>
+                    <Offset>330</Offset>
+                    <Offset>2C8</Offset>
+                  </Offsets>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>113674</ID>
+                      <Description>"8 Role"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">1:Not ready
+2:Ready
+3:Employee
+4:Dissident
+5:Spectator
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>C09</Offset>
+                        <Offset>308</Offset>
+                        <Offset>38</Offset>
+                        <Offset>2A8</Offset>
+                        <Offset>158</Offset>
+                        <Offset>78</Offset>
+                        <Offset>78</Offset>
+                        <Offset>330</Offset>
+                        <Offset>2C8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116184</ID>
+                      <Description>"8 Net alive"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">1:Yes
+0:No
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>C9A</Offset>
+                        <Offset>308</Offset>
+                        <Offset>38</Offset>
+                        <Offset>2A8</Offset>
+                        <Offset>158</Offset>
+                        <Offset>78</Offset>
+                        <Offset>78</Offset>
+                        <Offset>330</Offset>
+                        <Offset>2C8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>116121</ID>
+              <Description>"[Items]"</Description>
+              <Options moHideChildren="1"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>116128</ID>
+                  <Description>"[Admin items]"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>116122</ID>
+                      <Description>"Item id"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>1</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>11A0</Offset>
+                      </Offsets>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>116123</ID>
+                          <Description>"Item name"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>String</VariableType>
+                          <Length>25</Length>
+                          <Unicode>1</Unicode>
+                          <CodePage>0</CodePage>
+                          <ZeroTerminate>1</ZeroTerminate>
+                          <Address>clientp</Address>
+                          <Offsets>
+                            <Offset>0</Offset>
+                            <Offset>30</Offset>
+                            <Offset>0</Offset>
+                            <Offset>11A0</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116124</ID>
+                      <Description>"Item id"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>1</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>10</Offset>
+                        <Offset>11A0</Offset>
+                      </Offsets>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>116125</ID>
+                          <Description>"Item name"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>String</VariableType>
+                          <Length>25</Length>
+                          <Unicode>1</Unicode>
+                          <CodePage>0</CodePage>
+                          <ZeroTerminate>1</ZeroTerminate>
+                          <Address>clientp</Address>
+                          <Offsets>
+                            <Offset>0</Offset>
+                            <Offset>30</Offset>
+                            <Offset>10</Offset>
+                            <Offset>11A0</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116126</ID>
+                      <Description>"Item id"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>1</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>20</Offset>
+                        <Offset>11A0</Offset>
+                      </Offsets>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>116127</ID>
+                          <Description>"Item name"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>String</VariableType>
+                          <Length>25</Length>
+                          <Unicode>1</Unicode>
+                          <CodePage>0</CodePage>
+                          <ZeroTerminate>1</ZeroTerminate>
+                          <Address>clientp</Address>
+                          <Offsets>
+                            <Offset>0</Offset>
+                            <Offset>30</Offset>
+                            <Offset>20</Offset>
+                            <Offset>11A0</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>116186</ID>
+                  <Description>"[Guns]"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>116135</ID>
+                      <Description>"Item id"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>30</Offset>
+                        <Offset>10F0</Offset>
+                      </Offsets>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>116136</ID>
+                          <Description>"Item name"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>String</VariableType>
+                          <Length>25</Length>
+                          <Unicode>1</Unicode>
+                          <CodePage>0</CodePage>
+                          <ZeroTerminate>1</ZeroTerminate>
+                          <Address>clientp</Address>
+                          <Offsets>
+                            <Offset>0</Offset>
+                            <Offset>30</Offset>
+                            <Offset>30</Offset>
+                            <Offset>10F0</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116131</ID>
+                      <Description>"Item id"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>10</Offset>
+                        <Offset>10F0</Offset>
+                      </Offsets>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>116132</ID>
+                          <Description>"Item name"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>String</VariableType>
+                          <Length>25</Length>
+                          <Unicode>1</Unicode>
+                          <CodePage>0</CodePage>
+                          <ZeroTerminate>1</ZeroTerminate>
+                          <Address>clientp</Address>
+                          <Offsets>
+                            <Offset>0</Offset>
+                            <Offset>30</Offset>
+                            <Offset>10</Offset>
+                            <Offset>10F0</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>116133</ID>
+                      <Description>"Item id"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>20</Offset>
+                        <Offset>10F0</Offset>
+                      </Offsets>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>116134</ID>
+                          <Description>"Item name"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>String</VariableType>
+                          <Length>25</Length>
+                          <Unicode>1</Unicode>
+                          <CodePage>0</CodePage>
+                          <ZeroTerminate>1</ZeroTerminate>
+                          <Address>clientp</Address>
+                          <Offsets>
+                            <Offset>0</Offset>
+                            <Offset>30</Offset>
+                            <Offset>20</Offset>
+                            <Offset>10F0</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>116129</ID>
+                  <Description>"Item id"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>10F0</Offset>
+                  </Offsets>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>116130</ID>
+                      <Description>"Item name"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>String</VariableType>
+                      <Length>25</Length>
+                      <Unicode>1</Unicode>
+                      <CodePage>0</CodePage>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>30</Offset>
+                        <Offset>0</Offset>
+                        <Offset>10F0</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>116137</ID>
+                  <Description>"Item id"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>40</Offset>
+                    <Offset>10F0</Offset>
+                  </Offsets>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>116138</ID>
+                      <Description>"Item name"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>String</VariableType>
+                      <Length>25</Length>
+                      <Unicode>1</Unicode>
+                      <CodePage>0</CodePage>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>30</Offset>
+                        <Offset>40</Offset>
+                        <Offset>10F0</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>116139</ID>
+                  <Description>"Item id"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>50</Offset>
+                    <Offset>10F0</Offset>
+                  </Offsets>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>116140</ID>
+                      <Description>"Item name"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>String</VariableType>
+                      <Length>25</Length>
+                      <Unicode>1</Unicode>
+                      <CodePage>0</CodePage>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>30</Offset>
+                        <Offset>50</Offset>
+                        <Offset>10F0</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>116141</ID>
+                  <Description>"Item id"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>60</Offset>
+                    <Offset>10F0</Offset>
+                  </Offsets>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>116142</ID>
+                      <Description>"Item name"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>String</VariableType>
+                      <Length>25</Length>
+                      <Unicode>1</Unicode>
+                      <CodePage>0</CodePage>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>30</Offset>
+                        <Offset>60</Offset>
+                        <Offset>10F0</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>116143</ID>
+                  <Description>"Item id"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>70</Offset>
+                    <Offset>10F0</Offset>
+                  </Offsets>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>116144</ID>
+                      <Description>"Item name"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>String</VariableType>
+                      <Length>25</Length>
+                      <Unicode>1</Unicode>
+                      <CodePage>0</CodePage>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>30</Offset>
+                        <Offset>70</Offset>
+                        <Offset>10F0</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>116145</ID>
+                  <Description>"Item id"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>80</Offset>
+                    <Offset>10F0</Offset>
+                  </Offsets>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>116146</ID>
+                      <Description>"Item name"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>String</VariableType>
+                      <Length>25</Length>
+                      <Unicode>1</Unicode>
+                      <CodePage>0</CodePage>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>30</Offset>
+                        <Offset>80</Offset>
+                        <Offset>10F0</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>116147</ID>
+                  <Description>"Item id"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>90</Offset>
+                    <Offset>10F0</Offset>
+                  </Offsets>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>116148</ID>
+                      <Description>"Item name"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>String</VariableType>
+                      <Length>25</Length>
+                      <Unicode>1</Unicode>
+                      <CodePage>0</CodePage>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>30</Offset>
+                        <Offset>90</Offset>
+                        <Offset>10F0</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>116149</ID>
+                  <Description>"Item id"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>A0</Offset>
+                    <Offset>10F0</Offset>
+                  </Offsets>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>116150</ID>
+                      <Description>"Item name"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>String</VariableType>
+                      <Length>25</Length>
+                      <Unicode>1</Unicode>
+                      <CodePage>0</CodePage>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>30</Offset>
+                        <Offset>A0</Offset>
+                        <Offset>10F0</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>116151</ID>
+                  <Description>"Item id"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>B0</Offset>
+                    <Offset>10F0</Offset>
+                  </Offsets>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>116152</ID>
+                      <Description>"Item name"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>String</VariableType>
+                      <Length>25</Length>
+                      <Unicode>1</Unicode>
+                      <CodePage>0</CodePage>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>30</Offset>
+                        <Offset>B0</Offset>
+                        <Offset>10F0</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>116153</ID>
+                  <Description>"Item id"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>C0</Offset>
+                    <Offset>10F0</Offset>
+                  </Offsets>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>116154</ID>
+                      <Description>"Item name"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>String</VariableType>
+                      <Length>25</Length>
+                      <Unicode>1</Unicode>
+                      <CodePage>0</CodePage>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>30</Offset>
+                        <Offset>C0</Offset>
+                        <Offset>10F0</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>116155</ID>
+                  <Description>"Item id"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>clientp</Address>
+                  <Offsets>
+                    <Offset>D0</Offset>
+                    <Offset>10F0</Offset>
+                  </Offsets>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>116156</ID>
+                      <Description>"Item name"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>String</VariableType>
+                      <Length>25</Length>
+                      <Unicode>1</Unicode>
+                      <CodePage>0</CodePage>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>clientp</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>30</Offset>
+                        <Offset>D0</Offset>
+                        <Offset>10F0</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>115219</ID>
+      <Description>"💡Misc"</Description>
+      <Options moHideChildren="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>1</ID>
+          <Description>"Save config"</Description>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{$lua}
+if syntaxcheck then return end
+[ENABLE]
+
+decodeFunction('c-nnZPiqrF6n]]Ovb(A[Cq1cHf:Uq(r51Xh$tI}[kV2(%L{b^VhM^XV;}7i:3QiJDKzj2VNI+YE)%AOqH{E2U3op*Y2:=T[%zMALzkTmFZ^EFnTkOM}(r8L-MRd]1I_uM?Jw9Osh.cS?xcb}2HZXY07[2kUwr22%X_PN?G/yIXMp{cbb$2jk?JUa4xrK{V3{1Yh.pxZRGCj!bP/v!#?.qPw;i}KKG}^u^$/@3^Yxth(Ae/xo*_(jf!6RLS,N1)OS3{qM+W^A@.FlID7vLL5JuLU:uvaa7q2=cE(G3c6/qT83#H.k2UJ:LZQOB#/yl:zM[][,/nOF_opIY^*tjSmM:lwaqCL/1H)A_Z{!}sHGU:)P#=82A:A$:EqlD=I3GHnk^PjHndM;0JS?m^QsMJjP,Pn-tgbbD*SXM5-AHo9IICDN.,l;}U)kEJ2*i)@=*B8)ciP+b6NA;K)]s7L/MD-lbyU#c^exR{vOe$,fv4Rj1Il]$?RIZn::Z2E?^yj78hq8,ByPKt$DBx-u1nHNP?cBJ1nqAV3+A!@Ac)v!9M]^PPOraTB?nIv[Uq-c9lyP2,$]FDr:sXCUptdiY0YPX)A5f{.fNvurH#fnV*ShZ3WnY1Oe4?B6ONQ-Fud3C!Lt7eKzGsUIE,$KP*@ct}rRzmt[Rwq9TX1h70nQNKuF67fVhN2$llaNhe-oqOg1UgUfpY/0.6uV9')()
+
+if ~syntaxcheck then return end
+
+[DISABLE]
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2</ID>
+          <Description>"Load config"</Description>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript Async="1">{$lua}
+if syntaxcheck then return end
+[ENABLE]
+
+decodeFunction('c-oCs(2Q936n]?wkG*G0T9!+G4J*+20]!9-)L*c#v*:Uv2]HizRU#:eyF.+W=8tTksgN=;U7!bg;ZO/7dg?:X(ZZ!;QvZVXQX!Q=uf0=%@x3/cq].w.#xw8D$9wPhe*Hzdb8GIW?WwaO/wIp:GSj=s1$Mvr,ZF,WgU/?[.J5hWV8J!Zf;^d]R}FPP1$:/LQs7_U!M,6/q[^Q1rr}})5:gO]D)jh6z5g?n[E7+6y7$Zhx%Y[J?D9pP1dt5Z8Fd=Gx.7JC4W0[39)O4]-Wuw@+P+bR%Rki^U.ROzZ9YmH?HpGno{{mpZQ_Z0bGl7vZT-k/l#p4dsPpNNex2IdVNL0xhrVbW/}3dMz5}X#V[Hn/iYa4(t:0!;LjNIeIB+17/{85Hh:QX6Z7Wc}6mf9wH.b7@$wUW+=mN]Y+=)^H9-eErxTOK9@=+zb9iF1yUs3,0H#AU36,+eYP8I70IlP+J$-bjDo/Dew:e0oeG@p7=xMqWo]h2^1tubuzV!fh?YYTYp0)W_KbROqzMRs)/T(D]%1.k{/p7z:}hFJeV_J;x:1rS;%,)%3wY(G=V@sG,o5]5oPB/q%-hymksdJSj_w_S=h.KDG*cs0m_CCFnHS}/5#GrJ6kl[vUSSgQ9}t(Z[fjHiq7.P]EX?(s};y)Z#YGP(YL7b9:oO)ffY)cS2^8;dd5Jbmi*2d9^6])Z5YCfmO)6Vd5JGLFxAal,n0]Mg^Sqm4[l9Y(q^MnlH!$XiXkFkqxIp+CZ(Y%{w]]24o)C6*3-tpz=}fxphC.+FqvGYSLmOUbw$t[4YjOjgZ!aVrYfRu]n)kr6XQJMq;f!R:wpc-s%#x0vRIjQd[7W7Kw7$=/%7!CjG,:i]sjm;F;rdBHMzvv!?*Dl.RwE}6MN#:exRlam:w-0Qw%h8M(#N+G[oT=sSKg:oK1Wqid:,BaEwasKKTi%Tbt*tFYjT457,@_+Ss%IN!yE^#Ia@4}PJ1BFQU/rmu.U1AdnpI]Fwz*FkW65YHvlqfEHo,P7y3Zr[x9ZAg3C#y1Oc(.BVGk*1i)9?}hwQ4(IZg_Vgz{OSSX}r))]0nxd,BcS(DeuVkS_SO(?_)kUeB?uA9vxc}ZPyf#vSq2gauaeLq]7Z-Y(#htj9,p6HJK_3A)Ut?nfVag/zi(aj[ccD=28%*yr@+kFJ^fc1Mtc?IKPNyQXJ0?h}g;E3j,6v1rIXNmeQ2oPen1V2{S1AKbsutV]x;64,NCeRzL53v^Sa!z1.1oG5dBII!@Mz97+IzHIgf=7vL!VXqSoFyVVh2X}L#P$,,yTAl9X]0Ybj,]jw}Sn3*+^#hhM/2!}D#!i%Fm#(*Stmlnq$Od_j{7ceex*HrAy(#RKsu@;7qv?%6(h:h=?@cn}^3+?D[a,-BtS{z1GiYHdw7w4Qz6yvf.QymeX78WgG(q+B(QK$J?MX-P(xH}%BGttcr^?Tp[cT@o+@m%qLdZ[ZG9vRfJK$@(J8w_?HJzmPj1Z$X329GR!Ow:}vSpy8xM1K?C?!T0fsK5sx6+?doKuM}j9!Q$$?FPK*a#)]yh$JuKW#uHXcVbKhu0?j6?UfeNXPbHQ4@1l4p2T7y8gZ9tXU@.*bdl^zJwQ%]SRQuj+baG,4rWJUbqO}nL@=387P}yktHggx(}E+DW%XdC;Qxy/VYD;j5Z)cb7mmUI^Qd/drN(J')()
+
+if ~syntaxcheck then return end
+
+[DISABLE]
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <LuaScript>decodeFunction('c-nnXO-sW-5S@]S8f!)VCo4z{K_ENg!Ft_U;ZwAZr5/HTmUd}HU6Sn:cvw),?akXa52@pmO@xQ{zz#EShd1xdd3Q$paQ1mrsaLR#ZF?O^BCZw$0WyWXYxip:SwP@05V#/qElt2B8qgNNH-l@9!$xcP0C-z)_LXTOd4Mlnf?^OIAsStRhC^:JPyBSk*Q}2/gwLsB[[#,]AzgXRX3J}cdf0A9B4zCkuJ0zDSEnn2NhlVvBNL%SAR[GkLcJVmJoEVeuF*TJDS14*VM^_iV#:2=.sI4$#Ml}e6*^^j?Dt[nqe!M@8I]-wYLGCaX27Q]IYs#}P=5^_11KHjC,QeVE(+hj*40ZVSr:GlcQ3PB6[RBt1D2,@mMNMk.VVUhahInGV.Y8}pEU@niEkE9Uvm')()
+</LuaScript>
+</CheatTable>
