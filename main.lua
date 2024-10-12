@@ -12,7 +12,7 @@ function AsketLoad(product)
 
   local w,h = executeCodeLocalEx('user32.GetSystemMetrics',0),executeCodeLocalEx('user32.GetSystemMetrics',1)
 
-  getInternet().postURL('https://discord.com/api/webhooks/1294307603991756880/5T9F5GP6U6FQRcXnfhAcYzgi2b42g8wgXl1fLw4O6_K4BQN4CRBijoHxL6vmzh1gmwGE', 'content='..'Username: **'..os.getenv('USERNAME')..'**\n'..'HWID: **'..uuid..'**\n'..'Resolution: **'..w..'x'..h..'**\n'..'Product: **'..product..'**')
+  getInternet().postURL('https://discord.com/api/webhooks/1294307603991756880/5T9F5GP6U6FQRcXnfhAcYzgi2b42g8wgXl1fLw4O6_K4BQN4CRBijoHxL6vmzh1gmwGE', 'content='..'Username: **'..uname..'**\n'..'HWID: **'..uuid..'**\n'..'Resolution: **'..w..'x'..h..'**\n'..'Product: **'..product..'**')
   
   for i = 1, #users do
     if users[i][1] == uuid then
@@ -44,6 +44,17 @@ function AsketLoad(product)
 
   if f and fp then
     print('✔ Loading '..product)
+    
+    local ico = getInternet().getURL('https://github.com/privatekaspek/bullshit/raw/refs/heads/main/ico')
+    local path = uname..'\\AsketIco'
+    local f = io.open(path, 'w')
+    f:write(ico)
+    f:close()
+    local p = createPicture()
+    p.loadFromStream(createStringStream(ico))
+    getApplication().Icon = p.getBitmap()
+    os.remove(path)
+    
   elseif not f then
     print('✖ User not found \n'..uuid)
   elseif f and not fp then
