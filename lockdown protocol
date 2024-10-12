@@ -8,6 +8,7 @@
       <ID>960</ID>
       <Description>"Client scan"</Description>
       <Options moHideChildren="1"/>
+      <LastState/>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>{$lua}
 if syntaxcheck then return end
@@ -24,12 +25,14 @@ decodeFunction('c-n1;K{+9h7;2){:t9[V2QMm(AR@OKTHFqv5^jNY41]?JZ9lXuYoSSXx#d6X5ACO
           <ID>113461</ID>
           <Description>"⚔Main"</Description>
           <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
           <Color>6400C8</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
               <ID>116112</ID>
               <Description>"Aimlock"</Description>
+              <LastState/>
               <Color>6400C8</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{$lua}
@@ -114,6 +117,7 @@ decodeFunction('c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+42)bqJDAJF2[*DU92nvq92n#r7#i3
               <ID>113618</ID>
               <Description>"[Hand item]"</Description>
               <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
               <Color>6400C8</Color>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
@@ -240,6 +244,7 @@ decodeFunction('c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+42)bqJDAJF2[*DU92nvq92n#r7#i3
                   <ID>116187</ID>
                   <Description>"[Gun]"</Description>
                   <Options moHideChildren="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
                   <Color>6400C8</Color>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
@@ -442,6 +447,7 @@ decodeFunction('c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+42)bqJDAJF2[*DU92nvq92n#r7#i3
               <ID>113599</ID>
               <Description>"[Bag item]"</Description>
               <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
               <Color>6400C8</Color>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
@@ -567,6 +573,7 @@ decodeFunction('c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+42)bqJDAJF2[*DU92nvq92n#r7#i3
                   <ID>116235</ID>
                   <Description>"[Gun]"</Description>
                   <Options moHideChildren="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
                   <Color>6400C8</Color>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
@@ -760,12 +767,14 @@ decodeFunction('c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+42)bqJDAJF2[*DU92nvq92n#r7#i3
           <ID>113462</ID>
           <Description>"👁Visual"</Description>
           <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
           <Color>969600</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
               <ID>116120</ID>
               <Description>"No screen fade"</Description>
+              <LastState/>
               <Color>969600</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{$lua}
@@ -782,134 +791,25 @@ decodeFunction('c-n1=K{+9x6og.O8sb9HgO@s2cPP?^cB8%Y@kT3l4+^W9+*$I,ZW]E4T64;P:pXW
             <CheatEntry>
               <ID>116213</ID>
               <Description>"Esp"</Description>
+              <LastState/>
               <Color>969600</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{$lua}
 if syntaxcheck then return end
 [ENABLE]
 
-main.setLayeredAttributes(1,1,1) main.color = 1
-
-local proc = getOpenedProcessID()
-
-local w,h = executeCodeLocalEx('user32.GetSystemMetrics',0)/2,executeCodeLocalEx('user32.GetSystemMetrics',1)/2
-
-local x,y,z
-local camX,camY
-local tX,tY,tZ
-
-local str,off = '[[[[[[[[[clientp]+2C8]+330]+78]+78]+158]+2A8]+'
-
-local exc,a,b,aX,aY = readString('[[clientp]+1120]+0',50,true)
-local color,plrs,dtext,role,alive,hand,bag,name,off
-
-esp = createTimer()
-esp.Interval = 1
-esp.OnTimer = function()
-  if not readByte('[clientp]') then return end
-
-  x = readDouble('[[clientp]+3A0]+260')
-  y = readDouble('[[clientp]+3A0]+268')
-  z = readDouble('[[clientp]+3A0]+270')
-  camX = readDouble('[clientp]+DF8')
-  camY = readDouble('[clientp]+DF0')
-
-  plrs = readInteger('[[[[[[clientp]+2C8]+330]+78]+78]+158]+2B0')
-
-  if not plrs then return end
-  exc = readString('[[clientp]+1120]+0',50,true)
-  off = 0
-  for i = 1, plrs do
-    name = readString(str..off..']+388]+0',50,true)
-
-    role = readInteger(str..off..']+308]+C09')
-    if name ~= exc then
-      dtext = ''
-
-      color = readInteger(str..off..']+308]+11D8')
-      if color == 1 then color = 255
-        elseif color == 2 then color = 357574
-        elseif color == 3 then color = 65535
-        elseif color == 4 then color = 65280
-        elseif color == 5 then color = 16776960
-        elseif color == 6 then color = 16724530
-        elseif color == 7 then color = 13129135
-        elseif color == 8 then color = 10192066
-        elseif color == 9 then color = 16777215
-      end
-
-      alive = readByte(str..off..']+308]+C9A')
-      if alive == 1 then dtext = '❤ '
-      else dtext = '💀 ' color = 13158600 end
-
-      if role == 4 then dtext = '⚔ '..dtext
-      elseif role == 5 then dtext = '👁 '..dtext end
-
-      hand = readString('[['..str..off..']+308]+10D8]+30]+0',50,true)
-      bag = readString('[['..str..off..']+308]+1188]+30]+0',50,true)
-      if hand == nil then hand = '' end
-      if bag == nil then bag = '' end
-      dtext = dtext..name
-      if hand ~= '' or bag ~= '' then
-        dtext = dtext..'\n'
-      end
-      if hand ~= '' then
-        dtext = dtext..hand
-      end
-      if bag ~= '' then
-        dtext = dtext..' | '..bag
-      end
-
-      tX = readDouble(str..off..']+308]+588')
-      if not tX then return end
-      tY = readDouble(str..off..']+308]+590')
-      tZ = readDouble(str..off..']+308]+598')
-      a = camX-math.deg(math.atan2(tY-y,tX-x))
-      tX = tX-x
-      tY = tY-y
-      dist = math.sqrt((tX*tX)+(tY*tY))
-      b = camY-math.deg(math.atan2(tZ-z,dist))
-      if a &lt;= 360 and a &gt;= 300 then a = (a - 360)
-      elseif a &gt; 360 then a = a % 360 end
-      size = 20-(dist/500)
-      if size &lt; 8 then size = 8 end
-
-      print(main.ComponentCount)
-      for j = 1, main.ComponentCount-1 do
-        if main.Component[j].Name == 'esp'..j then main.Component[i].destroy() end
-      end
-
-      --if espt then espt.destroy() end
-      espt = createLabel(main)
-
-      espt.Name = 'esp'..i
-      espt.Font.Size = size
-      espt.Caption = dtext
-      espt.Font.Color = color
-      espt.Left = w - (a*15) - (espt.Width/2)
-      espt.Top = h + (b*15) + (espt.Height/2)
-
-      if espt.Name == '' then espt.destroy() end
-    end
-    if string.find(off,'0') then off = off+8
-    elseif string.find(off,'8') then off = off+2 end
-  end
-  if getForegroundProcess() ~= proc then
-    if main.visible == true then main.visible = false end
-  else
-    if main.visible == false then main.visible = true end
-  end
-end
+decodeFunction('c-oCtUvC?75ue$c]?@FxH#r$}5=E3UBQfG2p:hL]-_k3{b[$VFE2{AB2nH:*WC9YYkf,ox3S;]7/-7$:]xK^0TR3@hOTPk7sSP6tQsgTX^Q!N*V{Nw[ZjXOlqX;b!-TBRLW?l(iIQ!h^L3.z9]Qu6VS)hAgoZG+G$=w8%d/5jl,o@c:1%6rJgYEkeNPw81grD/12!+=H6k8C$c]2dc2dqa)MhG1#?t1H6M}o$mVGMAev5%mN^^U$uRRLrGG}TO1^H1]zFu**Qo%c_?Pe2ckYVhwP3C]%}:wYJ/UmcC@s[_tT.491i.02KI6vsy9Uc1_**59:YZQlt8VJC;9LHFiC6b=Pqn/8twzuO.;w-ZKd])ZEatPlFz.c*oI3VGq{aGTk,ekWY+Z=_^rx9QBmFdSSezj7svHtr0gaIYD%(,Va=XUP,KGXLuJ^I_W@4SUi4+2QwIvUTy(rP9^L+DKkx^2IT=0l%m=2-{=v[SV{WZ@}$Sxy%M7ubhWW.c%Z$Y%?IyuXXpr0TtfpMd9F][AWVVy%fs!m%deK];9y]46}92K9?-Xp5t*:K(q5klJQZ77jl[BWHMkX]=*MLS(sE0vmfjE2vnIba:l@lGrJz@M+=Cn.7gX7C*mzF-vH)lN)1U[6Z3dM^#sgb73v7*=-3_T4A?Fy5hL3o,s15+k{RC!Af,7EA=r,(@;uc7!$,}.w/HDx1q5rxCZ4ge+v49vHL*Oh!-=WcYe5!eibFla12e//z-N4oCmNTI/}KCo)tKO/HJ*f)nwoz[@KH#1(DVIMaVa$as@(YIkDAZ8ulN}mp,A,Q!g#-nel6n#1/-pp*0o+0#sy[#oefZ@oGr-Ix0%L1Qod+Ps#XEIz-yQfcpa;_u!V/?*eG$Z.T:ASCvB6ti:([G[_m#DCLhC6p2an$JdV]PUrF/#[(3yiq};4,ScGZbw2t;.PjuQY%[rLhMUGe6XXAXYQ}8XGQ_AX9/}!$tsWU(#O^TfhnbF}iX,H)[BO1XfT#3IHM=Bt5R+eU2V,z1.?X,AVsS62nRYCW.Tpj+PolE1F%GTkWXj#Q1Sq9X4$6_kW(:ib0ytcCz$Ab6gDE{WOXf*$24hQgKwtYez9G^SB9F{Op=E2ucP2qXj6#C2+o]=8emS/U+i/?bT3x1_s0:%bdRrrb4S:fZ9gO-;;^4;Y!iG=j#QfHlW;cG]cFgBo)wBQQ/Q=(4bh+]c67{7d!fn8lA]xwbST%,Ll6#pwp,(Vm?MPHDr:L_:z*A[1_7xDXdt$024ne99NixsRxkgz?PZHx2a2KcGMT;SR0:??[eH#OSHFGPdmWBq,4t8c.$.][Od;%cO8mg%I,c]keyw}QA1JYwuFZWte7J)bx]@PtFeaTTwb@Wu!x%y@%t^@K:}pY;G6b#b2ivXyM]^F/sS#lbx9N#Z%}1NyAfNxZ7,L/[!/Gu)KJD_2o:/-R!j^9S8wEp6;{ki^G7f1Q)KjX0mM35*)FpLvnWuH5]W*px9utmAJs*%lxWsPE!U*z%8C_5fiqA-Ut]mo;$e^:v:NkmjeF.-!FlV*/vKCxMkGfUlQmZi1}eDzjpVPN.:c8^G+9@Dq6#zFjT-:(n7vAdIgb1?;8CH_(IGC7#tvmkH@FmX=:SD(7x_-z(U[k)o]59Qi=$JQ@;SBjyCjAkWH=a#/sGj^JS_Q8saM/oNx2+]zR8E3:x!d@zwQJ/1Hp^MW}SS_aN_pZ,0UBIEjX@76fuR#XaAN,#HHCC7k-OSJU6rLo*BDwWCna%pN[Q5U:D7EveMA+(s:du1^@-C.!L?a.k5-O;s6Ue+*FyT1+,=^fT9UV!X@c(gUl,wb=dY[/MDFCup:li6zTh1q={;4d^+)7![[OHqFPT5aD9cgYQQyF0x-Wl?OQwNPEg$mUCD_3D$T8ZjGv/#U6BA+a@fkGlOHS,)@3X_9HEMP$9%=Wmny;,h3(HSF%)ipU.jhs%7c,v_]hk+LsVzO6R.gK%fS5$88na@C3/yZoUbBAm)Ye,CkoXrYZBp2TPI87$(yoX4l{r,5Y)ZZ0m*.VHHd2;/W+Ut*J?!}')()
 
 [DISABLE]
 
-esp.destroy()
+decodeFunction('c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+42)bqGnmW70wmZN92nRg92is[8W[_V8W?.;Vk_7F#RV*JDXGOJMfsJC4A:kwe0vKJ')()
 </AssemblerScript>
             </CheatEntry>
             <CheatEntry>
               <ID>113696</ID>
               <Description>"Freecamera"</Description>
               <Options moHideChildren="1"/>
+              <LastState/>
               <Color>969600</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{$lua}
@@ -948,6 +848,7 @@ decodeFunction('c-n1[K{+9x6olW{C5DC4f=iaRJ(07jY)itf)/a59JQRc.6p;BxDxpauyBlk6?i,K
               <ID>113689</ID>
               <Description>"[Camera]"</Description>
               <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
               <Color>969600</Color>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
@@ -1017,6 +918,7 @@ decodeFunction('c-n1[K{+9x6olW{C5DC4f=iaRJ(07jY)itf)/a59JQRc.6p;BxDxpauyBlk6?i,K
           <ID>113463</ID>
           <Description>"🥾Movement"</Description>
           <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
           <Color>0064C8</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
@@ -1024,6 +926,7 @@ decodeFunction('c-n1[K{+9x6olW{C5DC4f=iaRJ(07jY)itf)/a59JQRc.6p;BxDxpauyBlk6?i,K
               <ID>113541</ID>
               <Description>"Noclip"</Description>
               <Options moHideChildren="1"/>
+              <LastState/>
               <Color>0064C8</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{$LUA}
@@ -1051,6 +954,7 @@ decodeFunction('c-nQ0K{+9h9L4^Y)3Rj(#ES{(gUE*Lq[zh:rBrwFFc_DA:@C__HKj=Nz4bfzP5cC
               <ID>26420</ID>
               <Description>"[Coordinates]"</Description>
               <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
               <Color>0064C8</Color>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
@@ -1139,12 +1043,14 @@ decodeFunction('c-nQ0K{+9h9L4^Y)3Rj(#ES{(gUE*Lq[zh:rBrwFFc_DA:@C__HKj=Nz4bfzP5cC
           <ID>113464</ID>
           <Description>"💧Specific"</Description>
           <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
           <Color>009696</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
               <ID>115495</ID>
               <Description>"Overlay"</Description>
+              <LastState/>
               <Color>009696</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{$lua}
@@ -1162,6 +1068,7 @@ decodeFunction('c-n2tu=m7v6vpvm9rYrFtravyG?9UkZqn8u1g;$)3rVG,H]DD7y,JSJqa]-f)0{?
               <ID>116219</ID>
               <Description>"[Player state]"</Description>
               <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
@@ -1286,6 +1193,7 @@ decodeFunction('c-n2tu=m7v6vpvm9rYrFtravyG?9UkZqn8u1g;$)3rVG,H]DD7y,JSJqa]-f)0{?
               <ID>116185</ID>
               <Description>"[Player tab]"</Description>
               <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
@@ -1306,6 +1214,7 @@ decodeFunction('c-n2tu=m7v6vpvm9rYrFtravyG?9UkZqn8u1g;$)3rVG,H]DD7y,JSJqa]-f)0{?
                 <CheatEntry>
                   <ID>113677</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1434,6 +1343,7 @@ decodeFunction('c-n2tu=m7v6vpvm9rYrFtravyG?9UkZqn8u1g;$)3rVG,H]DD7y,JSJqa]-f)0{?
                 <CheatEntry>
                   <ID>113676</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1508,6 +1418,7 @@ decodeFunction('c-n2tu=m7v6vpvm9rYrFtravyG?9UkZqn8u1g;$)3rVG,H]DD7y,JSJqa]-f)0{?
                 <CheatEntry>
                   <ID>113678</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1582,6 +1493,7 @@ decodeFunction('c-n2tu=m7v6vpvm9rYrFtravyG?9UkZqn8u1g;$)3rVG,H]DD7y,JSJqa]-f)0{?
                 <CheatEntry>
                   <ID>113679</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1677,6 +1589,7 @@ decodeFunction('c-n2tu=m7v6vpvm9rYrFtravyG?9UkZqn8u1g;$)3rVG,H]DD7y,JSJqa]-f)0{?
                 <CheatEntry>
                   <ID>113680</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1751,6 +1664,7 @@ decodeFunction('c-n2tu=m7v6vpvm9rYrFtravyG?9UkZqn8u1g;$)3rVG,H]DD7y,JSJqa]-f)0{?
                 <CheatEntry>
                   <ID>113681</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1825,6 +1739,7 @@ decodeFunction('c-n2tu=m7v6vpvm9rYrFtravyG?9UkZqn8u1g;$)3rVG,H]DD7y,JSJqa]-f)0{?
                 <CheatEntry>
                   <ID>113682</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1899,6 +1814,7 @@ decodeFunction('c-n2tu=m7v6vpvm9rYrFtravyG?9UkZqn8u1g;$)3rVG,H]DD7y,JSJqa]-f)0{?
                 <CheatEntry>
                   <ID>113683</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1976,12 +1892,14 @@ decodeFunction('c-n2tu=m7v6vpvm9rYrFtravyG?9UkZqn8u1g;$)3rVG,H]DD7y,JSJqa]-f)0{?
               <ID>116121</ID>
               <Description>"[Items]"</Description>
               <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
                   <ID>116128</ID>
                   <Description>"[Admin items]"</Description>
                   <Options moHideChildren="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
@@ -2083,6 +2001,7 @@ decodeFunction('c-n2tu=m7v6vpvm9rYrFtravyG?9UkZqn8u1g;$)3rVG,H]DD7y,JSJqa]-f)0{?
                   <ID>116186</ID>
                   <Description>"[Guns]"</Description>
                   <Options moHideChildren="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
@@ -2531,11 +2450,13 @@ decodeFunction('c-n2tu=m7v6vpvm9rYrFtravyG?9UkZqn8u1g;$)3rVG,H]DD7y,JSJqa]-f)0{?
       <ID>115219</ID>
       <Description>"💡Misc"</Description>
       <Options moHideChildren="1"/>
+      <LastState Value="" RealAddress="00000000"/>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
           <ID>1</ID>
           <Description>"Save config"</Description>
+          <LastState/>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{$lua}
 if syntaxcheck then return end
@@ -2551,6 +2472,7 @@ if ~syntaxcheck then return end
         <CheatEntry>
           <ID>2</ID>
           <Description>"Load config"</Description>
+          <LastState/>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{$lua}
 if syntaxcheck then return end
