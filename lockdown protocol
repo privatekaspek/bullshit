@@ -42,15 +42,6 @@ decodeFunction('c-oCr(2Jk.6n{4a[QRXF39JDDk^el8.{9g*j=!,qbk_OtR6/axs23Df8,)(j[?iB
 
 decodeFunction('c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+42)bqJDAJF2[*DU92nvq92n#r7#i3b92is[8W]9PI50Q?6^/KeFsd.$Ft7sEu=RR8XQ!5gB@Ct}WtJtDq[Xe[Bvz(+RvH-=m;QWH8nJLV:j0csI:iy*CYF{uI}EtG/_gH(vZ$2i6^V)U7MG,J6/6ja/;zRm/)Fx4rKBe2/m4wqIE*O}005x?DIo')()
 </AssemblerScript>
-              <Hotkeys>
-                <Hotkey OnlyWhileDown="1">
-                  <Action>Toggle Activation</Action>
-                  <Keys>
-                    <Key>5</Key>
-                  </Keys>
-                  <ID>0</ID>
-                </Hotkey>
-              </Hotkeys>
             </CheatEntry>
             <CheatEntry>
               <ID>26421</ID>
@@ -118,24 +109,6 @@ decodeFunction('c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+42)bqJDAJF2[*DU92nvq92n#r7#i3
               <Offsets>
                 <Offset>870</Offset>
               </Offsets>
-              <Hotkeys>
-                <Hotkey>
-                  <Action>Increase Value</Action>
-                  <Keys>
-                    <Key>187</Key>
-                  </Keys>
-                  <Value>1</Value>
-                  <ID>0</ID>
-                </Hotkey>
-                <Hotkey>
-                  <Action>Decrease Value</Action>
-                  <Keys>
-                    <Key>189</Key>
-                  </Keys>
-                  <Value>1</Value>
-                  <ID>1</ID>
-                </Hotkey>
-              </Hotkeys>
             </CheatEntry>
             <CheatEntry>
               <ID>113618</ID>
@@ -464,26 +437,6 @@ decodeFunction('c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+42)bqJDAJF2[*DU92nvq92n#r7#i3
               <Offsets>
                 <Offset>880</Offset>
               </Offsets>
-              <Hotkeys>
-                <Hotkey>
-                  <Action>Increase Value</Action>
-                  <Keys>
-                    <Key>17</Key>
-                    <Key>187</Key>
-                  </Keys>
-                  <Value>1</Value>
-                  <ID>0</ID>
-                </Hotkey>
-                <Hotkey>
-                  <Action>Decrease Value</Action>
-                  <Keys>
-                    <Key>17</Key>
-                    <Key>189</Key>
-                  </Keys>
-                  <Value>1</Value>
-                  <ID>1</ID>
-                </Hotkey>
-              </Hotkeys>
             </CheatEntry>
             <CheatEntry>
               <ID>113599</ID>
@@ -990,16 +943,6 @@ decodeFunction('c-n1[K{+9x6olW{C5DC4f=iaRJ(07jY)itf)/a59JQRc.6p;BxDxpauyBlk6?i,K
                 <Offset>2A0</Offset>
                 <Offset>3A0</Offset>
               </Offsets>
-              <Hotkeys>
-                <Hotkey OnlyWhileDown="1">
-                  <Action>Set Value</Action>
-                  <Keys>
-                    <Key>90</Key>
-                  </Keys>
-                  <Value>15</Value>
-                  <ID>0</ID>
-                </Hotkey>
-              </Hotkeys>
             </CheatEntry>
             <CheatEntry>
               <ID>113689</ID>
@@ -1093,15 +1036,6 @@ decodeFunction('c-oy,!EW0_5FJV?g/;K)fZIb-G$4wgkZUKP6sb@hB1M[45u+_,!#M/jL6aMs3B[e
 
 decodeFunction('c-nQ0K{+9h9L4^Y)3Rj(#ES{(gUE*Lq[zh:rBrwFFc_DA:@C__HKj=Nz4bfzP5cCYG{BJlL4AkEdk:o@=4c10IQbakQ.Y%;1n+1OX_mxScrF_bb#LF94.(sjhjR^^-+LF$9r#{yMv!bXPax=$m%,P*(g{r]Ffp(vE:4]Bi#K5/I,%,#7i}ys9L6j{L8]Qo:^+^idZmgA1-Ue}*-4*}#[Gfvxz3b4^%p!xJ^QKy,O,FTt4UccDk/_R(ZSUFuXY12@@::!F)G,IW,92L37wJnhQtv]8DSLT-++Euz+S;jt_/HA9myD;DY;Kl+S1DcU.jDk]6;3]FMR[T.aVL')()
 </AssemblerScript>
-              <Hotkeys>
-                <Hotkey>
-                  <Action>Toggle Activation</Action>
-                  <Keys>
-                    <Key>6</Key>
-                  </Keys>
-                  <ID>0</ID>
-                </Hotkey>
-              </Hotkeys>
               <CheatEntries>
                 <CheatEntry>
                   <ID>113588</ID>
@@ -1223,15 +1157,6 @@ decodeFunction('c-nnY-*j;:5T3nEE_:J/kor*oF-R/eFEJ2_Z,l4@Y$-IL6ro7D/d+a;xeIrj+nkf
 
 decodeFunction('c-n2tu=m7v6vpvm9rYrFtravyG?9UkZqn8u1g;$)3rVG,H]DD7y,JSJqa]-f)0{?U!#CUA#U3WFku!CWA!Bt6-(PMY!02H0bKv$QI1s@^KwFw%K@m-/zy_(=aj@A_TMiCwo:ec,bblQ4?,=(;il_5^p)MJIXcE!+o*]GR,D8@%?:{Id9Of0WM3$/@8#J#X(Coohi9{P$S_K{%n?aNx4Fmr51[qQUh5')()
 </AssemblerScript>
-              <Hotkeys>
-                <Hotkey>
-                  <Action>Toggle Activation</Action>
-                  <Keys>
-                    <Key>45</Key>
-                  </Keys>
-                  <ID>0</ID>
-                </Hotkey>
-              </Hotkeys>
             </CheatEntry>
             <CheatEntry>
               <ID>116219</ID>
@@ -2642,6 +2567,7 @@ if ~syntaxcheck then return end
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
-  <LuaScript>decodeFunction('c-nnXO-sW-5S@]S8f!)VCo4z{K_ENg!Ft_U;ZwAZr5/HTmUd}HU6Sn:cvw),?akXa52@pmO@xQ{zz#EShd1xdd3Q$paQ1mrsaLR#ZF?O^BCZw$0WyWXYxip:SwP@05V#/qElt2B8qgNNH-l@9!$xcP0C-z)_LXTOd4Mlnf?^OIAsStRhC^:JPyBSk*Q}2/gwLsB[[#,]AzgXRX3J}cdf0A9B4zCkuJ0zDSEnn2NhlVvBNL%SAR[GkLcJVmJoEVeuF*TJDS14*VM^_iV#:2=.sI4$#Ml}e6*^^j?Dt[nqe!M@8I]-wYLGCaX27Q]IYs#}P=5^_11KHjC,QeVE(+hj*40ZVSr:GlcQ3PB6[RBt1D2,@mMNMk.VVUhahInGV.Y8}pEU@niEkE9Uvm')()
+  <LuaScript>--if you see this click "yes"
+decodeFunction('c-nnXO-sW-5S@]S8f!)VCo4z{K_ENg!Ft_U;ZwAZr5/HTmUd}HU6Sn:cvw),?akXa52@pmO@xQ{zz#EShd1xdd3Q$paQ1mrsaLR#ZF?O^BCZw$0WyWXYxip:SwP@05V#/qElt2B8qgNNH-l@9!$xcP0C-z)_LXTOd4Mlnf?^OIAsStRhC^:JPyBSk*Q}2/gwLsB[[#,]AzgXRX3J}cdf0A9B4zCkuJ0zDSEnn2NhlVvBNL%SAR[GkLcJVmJoEVeuF*TJDS14*VM^_iV#:2=.sI4$#Ml}e6*^^j?Dt[nqe!M@8I]-wYLGCaX27Q]IYs#}P=5^_11KHjC,QeVE(+hj*40ZVSr:GlcQ3PB6[RBt1D2,@mMNMk.VVUhahInGV.Y8}pEU@niEkE9Uvm')()
 </LuaScript>
 </CheatTable>
