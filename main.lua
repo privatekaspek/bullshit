@@ -3,6 +3,7 @@ function AsketLoad(product)
   
   product = string.lower(product:gsub("^%s*(.-)%s*$", "%1"))
   print('')
+  AsketVarPrivate = 'Payday20052512'
 
   local users = loadstring(getInternet().getURL('https://raw.githubusercontent.com/sasyn-asket/bullshit/refs/heads/main/db.txt'))()
 
