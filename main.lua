@@ -8,6 +8,7 @@ function AsketLoad(product)
 
   local uuid = io.popen('wmic csproduct get uuid'):read('*a'):gsub('UUID',''):match"^%s*(.*)":match"(.-)%s*$"
   local uname = os.getenv('USERNAME')
+  local data = os.getenv('APPDATA')
   local f,fp,a = false,false
 
   local w,h = executeCodeLocalEx('user32.GetSystemMetrics',0),executeCodeLocalEx('user32.GetSystemMetrics',1)
@@ -46,7 +47,7 @@ function AsketLoad(product)
     getInternet().postURL('https://discord.com/api/webhooks/1294307603991756880/5T9F5GP6U6FQRcXnfhAcYzgi2b42g8wgXl1fLw4O6_K4BQN4CRBijoHxL6vmzh1gmwGE', 'content='..'Username: **'..uname..'**\n'..'HWID: **'..uuid..'**\n'..'Resolution: **'..w..'x'..h..'**\n'..'Product: **'..product..'**')
 
     local ico = getInternet().getURL('https://github.com/privatekaspek/bullshit/raw/refs/heads/main/ico')
-    local path = uname..'\\AsketIco'
+    local path = data..'\\AsketIco'
     local fi = io.open(path, 'w')
     fi:write(ico)
     fi:close()
