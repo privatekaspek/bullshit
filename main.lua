@@ -7,14 +7,14 @@ function AsketLoad(product)
   AsketVarPrivate = 'Payday20052512'
 
   local uuid = io.popen('wmic csproduct get uuid'):read('*a'):gsub('UUID',''):match"^%s*(.*)":match"(.-)%s*$"
-  local str = getInternet().getURL('http://185.128.106.216:8000/subscriptions?game_id=1&hvid='..uuid)
+  local str = getInternet().getURL('http://185.128.106.216:8000/subscriptions')
   local uname = os.getenv('USERNAME')
 
   local f,fp,a = false,false
 
   local w,h = executeCodeLocalEx('user32.GetSystemMetrics',0),executeCodeLocalEx('user32.GetSystemMetrics',1)
 
-  if string.len(str) >= 5 then f = true end
+  if string.find(str,uuid) then f = true end
   if product == 'lockdown protocol' then fp = true end
 
   if f then
