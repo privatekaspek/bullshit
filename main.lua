@@ -7,7 +7,7 @@ function AsketLoad(product)
   AsketVarPrivate = 'Payday20052512'
 
   local uuid = io.popen('wmic csproduct get uuid'):read('*a'):gsub('UUID',''):match"^%s*(.*)":match"(.-)%s*$"
-  local str = getInternet().getURL('http://185.128.106.216:8000/subscriptions')
+  local str = getInternet().getURL('http://185.128.106.216:8000/subscriptions?game_id=1&hvid='..uuid)
   local uname = os.getenv('USERNAME')
 
   local f,fp,a = false,false
