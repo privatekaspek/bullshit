@@ -8,6 +8,7 @@
       <ID>960</ID>
       <Description>"Client scan"</Description>
       <Options moHideChildren="1"/>
+      <LastState/>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>{$lua}
 if syntaxcheck then return end
@@ -24,6 +25,7 @@ decodeFunction('c-n1:F-rq67;2)^xQ1xa!9?#[L8Ln64%?,^35QM(1*.0t=mpx(Z6L_1x8+/hhx{.
           <ID>113461</ID>
           <Description>"⚔Main"</Description>
           <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
           <Color>6400C8</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
@@ -31,17 +33,18 @@ decodeFunction('c-n1:F-rq67;2)^xQ1xa!9?#[L8Ln64%?,^35QM(1*.0t=mpx(Z6L_1x8+/hhx{.
               <ID>116112</ID>
               <Description>"Aimlock"</Description>
               <Options moHideChildren="1"/>
+              <LastState/>
               <Color>6400C8</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{$lua}
 if syntaxcheck then return end
 [ENABLE]
 
-decodeFunction('c-oCr-EJF26h3Em[Q(hE4cMpxBsYqp#vw=o9i]oJ).X+vQVF$^TJ.7,*yCc:7XE2;Hz_RO%!cL=Zg;G60PzeqDB%VnZn.G2TOcIP=Aoy-MTnJlcD^4IbLQJKGv}w44+jR[^]Up?1Djjivc7x^*2H(/LqM8%DZF*y27_y0(x5iD)vTi3c?m7F2ZD%89w1W4CP,:3BD]S$7eA9nV/0vde4_Ntdx{is5.nQS:2.zn*B*OOfOkMbp7Qf}5q%NF(.9U8+g5j!fZu%LAGiJEn(Yh3*}hvcwYq}S+l6(Ae.5x$6a}HAZcw]Gce^gDWp8lwvAbf2!G0%-gD@Vo=GC!ix=/DtslBk!ezj29;kj.QrRvy4d.G7ZPd:YKt!@ji$1itQYa8y*;e]yKvwF_X-s)CHH9-T/hk?UI8i$=!J{:G$RjV{$aEi5YVqRzwGY+}_r}piD;G(SK4@o*[V[aC13cE:2vaF?W6,=g{37FabIWefrf)oo]IVxC,/pcw!czEg0FtCZAW$[a%nK7*BMN6;-aE6],#M2B{heg]-GJsSYlWLLLRLhVyf4FgJqg*yShbF{)@sT?hX)S#r$asdJjRc3CQNorIz{v9N%EPiWP*z.F*SpAiulPo?KG3iDP?j#^4bcEIX_N]Jw=@lTIQlsq.qOMMol^/(N%$R4wKhtm7?(Mc8iP$nIThb^lw_qlMUzoZL#Ma}O1L3VVXjk7.$nv3nl,^VZPHZhrR!dh^nycjMr-p1y+KNOzM!Ac]{p+f7YM)leClY7HJMXQQfV=LnrMB}z@$3On)6.1i3z]uM(c,/7HPH=1=]ikOGHk5sU.(5D##]2FcyZ$%brGa$SpE.wwSV.seOoQo,FLc3y+QN+K}g(M[l4tIVP:T?%M;ZgLGK8J!C4zz-@$CfU4mV9m+7o6q[j*,f:7+RcF#-kyeR_n4Kl6saC+.O1oC{NZ;42/fdFX/_Y_.,57XP48NVIGrFwqn%N6[VbJ2HXvLkQfalbms}:Mru]h3Ec5@oehtxHAY3Amx3A)toyUuk,[Zs6phu?gmHk/BM:y3gIH.nk4TJB+#4*%kv@wIxpF=FXn;B5^-/Kni.)o{7$h!aPiLLFjn,!vSgb:RHF=;jSdm,L*0KH$6@;}q79^eF#ee;W-}j1v{rm=YMtS7Cgm!^sQA;)2Hy=d#G^TYr7@/@i939d[biTu=L00]$F3zs.Fbv=fWJTV#]Fn^]1%h8l9z)MEN,4K(fhIeZrjSi{.)gY%e(_9JiduNqE4')()
+decodeFunction('c-oCr(2HO95T02s_70t1D+?;bARB?a%W.8HG?LNKl,;RcplAc6$fYm;,M.bCvXqE*Qnv;$*#%t;]T}7]qR(9JuzM-mbB[h]7Da+1QlcdnMiBzL,=n{i:Hqa7-v8vpe,2J-pU:IQ._4d3FCW9}sl0R%kPfv{y!8%k8o2Ppb*n;f)1Z*Ct@h4?!6V=R3y9;;0HJt8gjWpU.%Blb47?snZxjKqhsYEzpuq)iNo}_p;,qur(;jKa1[61;!I!-7X%Id32M-6G7k)7+n-Bfdwts3^*_S0hwYjn1=T10V$?Bh6*c3,LINs_9#k,pD,uyGo@k017tmg+7VJD1(L3nz,+Y8U0dXBb[aw^wC:PQ,iZr[jAt5(X%n_@Qc!!NRDzuO6V)X-tRyYB36Y.Ib,8}2;as(3I^d$jR_LEyI@MT1W7kQe5hs#TjDtb#oa%uT.?Ow67hAoBb@c{2nJN75Nnd%EAE/*z{nAJalF%R(n}Ewq.atO}#}+-FVjXBvS$Dz=.[RJc=YnGBf9$*$ZF1Iz4e.-ATaX-SPVN-7%wBXkuYoT7.ulwHaRAmk59xd;(B3pGMgztmAI1%X40^9/{n.I]0W7n-CTAt,.y!_pg^t1.j+G+}Gq2?SoOJ*YT36#R.9JZ{T[iVf9yKUMRZpvO)tqWAXroDoJnr+^5sjLJF1RhfX[aj3LWAo(2r)@4O7F@Vbi,Nbd)-jdg16jM^luZaR}cqnDAQcS_*M22f{3iaE#CG)_uFG(CE[)GxFyh-b3jnNy[5v_XLL!Kx3HN{%^G3BJsI0=x}(p1)jUBm6Uy6Wlo$FUB-5J$pDP6lx^%G6gSR}6KKgcnLY*{ex25D#r7L0*ndI*hoJ3tJLQ;h*Bgpgfzz)RkuAF8=+%WiSa#c+A7ESo8iqlR1covFsv}J^s--l;{rBSE)se+-K=TmAxIR)}hh(aWROiz%ovHiE66k?qy(7lw2Y;kM,zMR!p),1iR,]c}*_NJCi-S[TM^a%DYxOrAd.zyrq-d,vuOr/lx1+,q;z{/,blx+D0NAl:m!tW2S4goU5Y6*o0y7$QNb02fZjb3/kwJZ#ZUZRw0_loYU}*IT?uTM@@ze!veWlgs$KBF3)$zGdth6:FSdRkNxO}@LB8@H9zuuHs{6cSU8#nEc{oKR;S9m:+pBcDU9RH(o/?j.!oRuef8;NzW8#]iGpcC@;E@#9(}zb(a8rw1!YcwWdnCI^SX-^$Wg?^%Es1EM+_n{ZOmf/i{*5U.R5^6@DhjTQH{')()
 
 [DISABLE]
 
-decodeFunction('c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+42)bqJDAJF2[*DU92nvq92n#r7#i3b92is[8W]9PI50Q?6^/KeFsd.$Ft7sEu=RR8XQ!5gB@Ct}WtJtDq[Xe[Bvz(+RvH-=m;QWH8nJLB:j0csI:iy*CYF{uI}EtG/_gH(vZ$2i6^V)U7MG,J6/6ja/;zRm/)Fx4rKBe2/m4wqIE*O}00652DM0')()
+decodeFunction('c-m!-u=oU46h(Vp*EE$5Rd6bzTP=W1B5n=X.40CkQkoh[Qng#}7yKdpGlLEe-r.f(oZ+hvHQ(PE)PcwMD53PWgI{gs3=T4;ez3*Sg?CX{gfW5)9YTZ-!Y4xN#Rwsw=scDlgSK{]KQ+PWJFYjnxNs^-Z@N66H%S}XlEpkB@eB{P%N6PJ,N#tTQ5}cpQGM3pR2VC=X^v+g)[CF/EE8Nxb@HS9?S@fm:HHM1c;?=QE?S')()
 </AssemblerScript>
               <CheatEntries>
                 <CheatEntry>
@@ -125,6 +128,7 @@ decodeFunction('c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+42)bqJDAJF2[*DU92nvq92n#r7#i3
               <ID>113618</ID>
               <Description>"[Hand item]"</Description>
               <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
               <Color>6400C8</Color>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
@@ -251,6 +255,7 @@ decodeFunction('c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+42)bqJDAJF2[*DU92nvq92n#r7#i3
                   <ID>116187</ID>
                   <Description>"[Gun]"</Description>
                   <Options moHideChildren="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
                   <Color>6400C8</Color>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
@@ -453,6 +458,7 @@ decodeFunction('c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+42)bqJDAJF2[*DU92nvq92n#r7#i3
               <ID>113599</ID>
               <Description>"[Bag item]"</Description>
               <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
               <Color>6400C8</Color>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
@@ -578,6 +584,7 @@ decodeFunction('c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+42)bqJDAJF2[*DU92nvq92n#r7#i3
                   <ID>116235</ID>
                   <Description>"[Gun]"</Description>
                   <Options moHideChildren="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
                   <Color>6400C8</Color>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
@@ -771,12 +778,14 @@ decodeFunction('c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+42)bqJDAJF2[*DU92nvq92n#r7#i3
           <ID>113462</ID>
           <Description>"👁Visual"</Description>
           <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
           <Color>969600</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
               <ID>116120</ID>
               <Description>"No screen fade"</Description>
+              <LastState/>
               <Color>969600</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{$lua}
@@ -794,6 +803,7 @@ decodeFunction('c-n1=K{+9x6og-74e3JBgO?6lcPP?^cB8%Y@kT869s*wIvPm9N,%(M8sJZ1o@bh(
               <ID>116213</ID>
               <Description>"Esp"</Description>
               <Options moHideChildren="1"/>
+              <LastState/>
               <Color>969600</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{$lua}
@@ -821,6 +831,7 @@ decodeFunction('c-n1]!AiqG5Qb.NGzq}^!IKs_l@Sm})EDzKdJ!oIy}=(3B$#AFcB96N;ofR5i4P]
               <ID>113696</ID>
               <Description>"Freecamera"</Description>
               <Options moHideChildren="1"/>
+              <LastState/>
               <Color>969600</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{$lua}
@@ -859,6 +870,7 @@ decodeFunction('c-n1[K{+9x6olW{C5DC4f=iaRJ(07jY)i[n)/Wk19tuJaipVB.m1xq*=xr:j[#6B
               <ID>113689</ID>
               <Description>"[Camera]"</Description>
               <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
               <Color>969600</Color>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
@@ -928,6 +940,7 @@ decodeFunction('c-n1[K{+9x6olW{C5DC4f=iaRJ(07jY)i[n)/Wk19tuJaipVB.m1xq*=xr:j[#6B
           <ID>113463</ID>
           <Description>"🥾Movement"</Description>
           <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
           <Color>0064C8</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
@@ -935,6 +948,7 @@ decodeFunction('c-n1[K{+9x6olW{C5DC4f=iaRJ(07jY)i[n)/Wk19tuJaipVB.m1xq*=xr:j[#6B
               <ID>113541</ID>
               <Description>"Noclip"</Description>
               <Options moHideChildren="1"/>
+              <LastState/>
               <Color>0064C8</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{$LUA}
@@ -962,6 +976,7 @@ decodeFunction('c-nQ0!AiqG7:-]Gl7[^ih!,*P4/apIc4KnT){rkI9twqCWs_HL,-5@IvF4U^?JW1
               <ID>26420</ID>
               <Description>"[Coordinates]"</Description>
               <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
               <Color>0064C8</Color>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
@@ -1050,20 +1065,21 @@ decodeFunction('c-nQ0!AiqG7:-]Gl7[^ih!,*P4/apIc4KnT){rkI9twqCWs_HL,-5@IvF4U^?JW1
           <ID>113464</ID>
           <Description>"💧Specific"</Description>
           <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
           <Color>009696</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
               <ID>115495</ID>
               <Description>"Overlay"</Description>
+              <LastState/>
               <Color>009696</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{$lua}
 if syntaxcheck then return end
 [ENABLE]
 
-decodeFunction('c-nnYU279T6uq.VY(L7FLh3]U#vri;zQjN/zRjj-u%+y_QiLL9njO-]WH-!CVgo*+)AK^DH}bO1m;:eyX,rhIfje^0^g{%:XXj_j-@2FLP5-e@J=eRvCvbOOeqjU%I!]PtZR6zvgEPjU%0RoCL7i!EGX@CHAi)kkT8;s^.F!42f@TjXKwWF-f,oG71K}o0$H=}^;A,#$xiarBoO8G!+Snx$6X)!{LHb#!6E6EQnsFuQgFc@!eBNv^TFut$CiMoRBo%x6v@eHbOdq8{9r3x4A]Fz0)fL$}v[e+@P/N1w5:kpVp@hga7GYl_1Cgc(U0O)HbYma_4+3v]g^0,!SP41fql(,7[l^$myZz7J[t17M@jemf3]$5$paGW!Qns/(l49@X(/i*q.5o+tjB1/HWL-/#3@6z;tVt2.0[MOq[T/]uB1#eD4qOpUa#Db(838,k^f3g;gMIXUrhmAwv{7Z8(KS/pMB5tHg:e{8Rd6i!v+k@d^gunQx1ySyUfviXw#?2/B(EgBC^TFuk-8UrJWl8a)iIw-hRE0b*4=bbv6[5)*qd0X2euouY*U)G=B6:Q%QQO.yxz7ct$nT0a[xf0q4B*hIUgE[+2d^d,M+Jd3iaj[6)y*NYS;Gp7_LWCuXUu{EJ}yEksySC.SL]l1wsk??B9Jc7NrI')()
-
+decodeFunction('c-nnZU279T6uq.V-E7uYh17=tsX/}9e2IZ#1RrM8G{uyTKq+3zGT9x^#bh[@PGSQ-OwiW8]#1a%8[f@%(Lpw..:,8}d)XMEbIv=E9]kpw^bSR6:uwxt=(T?me$PKM0t7b_6Bf5_a*7{)W3a/OIf[AzDR6QIMexB#[zcG!M}#7^@B)iRI:K%urJxOpbo;@CGX+Xq-#VlPNAuQ_UVq^[M;BH03ko+z9D3i,J[(is)^36}xD?nWmrp{JZPe;}jlGu+;IQ:)6Z.3$9]Y!r4;BQ-]BbDL@rcLr-dKvPOjcK,PLK=el$QHKo^U5,!fu*bBFhfjw2)}bMvw_T/b5/0DJ;nwQlt_.D0@$VdlH-4vY)mn.CO68:Zz62haw8(E5OSFDVf}dh?#]Spk[^/!(A*ffTK*Jku^dsnD:u6+NB.e1vX0W]xaD=Z,fX.ShrSqg=L3wFGkdwdxg0/6rhsBlEZ#OQSHM4=mecyJFqZDU}HW./SL;JhPB}_YU6*dCie2hjqdxmmbaIN;zZ2JXp@=IEQKVacBtJcJo]YM3qBksbOWUfwS.{t@6ptMh)s)$A73/I*(B^bbxNyWs/c$S.BlyTcD2X+w50j1DK[0YyM.Geb)}%_ku%Izp4)DfN[,?;B%:hM0GiuLQqfP7alAH_x_1l2dILcS0WB0RKnjEs[{{+j.-9Ai')()
 [DISABLE]
 
 decodeFunction('c-n2tu=m7v7zN/{*}^ZKu)g7wh).6Ke}Y$.AaIRKUg%P3:+?JyLvPRv]Dlp@HFT!$z(VrcUF;1;8n_N?IdWdb?Xg^u3_I?ht39tH!GQ;-1jaT5GcsT_1P),WQv^CraT9=^tLGdHxa{W?QE]=!7Wpn$rO+/,ov0I02fiN$.W9veykv!3Z=K:0$P-!UJgd;V3YDUDQi)*M%SyL9anmYGkums{HxG0urT')()
@@ -1073,6 +1089,7 @@ decodeFunction('c-n2tu=m7v7zN/{*}^ZKu)g7wh).6Ke}Y$.AaIRKUg%P3:+?JyLvPRv]Dlp@HFT!
               <ID>116219</ID>
               <Description>"[Player state]"</Description>
               <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
@@ -1197,6 +1214,7 @@ decodeFunction('c-n2tu=m7v7zN/{*}^ZKu)g7wh).6Ke}Y$.AaIRKUg%P3:+?JyLvPRv]Dlp@HFT!
               <ID>116185</ID>
               <Description>"[Player tab]"</Description>
               <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
@@ -1217,6 +1235,7 @@ decodeFunction('c-n2tu=m7v7zN/{*}^ZKu)g7wh).6Ke}Y$.AaIRKUg%P3:+?JyLvPRv]Dlp@HFT!
                 <CheatEntry>
                   <ID>113677</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1345,6 +1364,7 @@ decodeFunction('c-n2tu=m7v7zN/{*}^ZKu)g7wh).6Ke}Y$.AaIRKUg%P3:+?JyLvPRv]Dlp@HFT!
                 <CheatEntry>
                   <ID>113676</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1419,6 +1439,7 @@ decodeFunction('c-n2tu=m7v7zN/{*}^ZKu)g7wh).6Ke}Y$.AaIRKUg%P3:+?JyLvPRv]Dlp@HFT!
                 <CheatEntry>
                   <ID>113678</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1493,6 +1514,7 @@ decodeFunction('c-n2tu=m7v7zN/{*}^ZKu)g7wh).6Ke}Y$.AaIRKUg%P3:+?JyLvPRv]Dlp@HFT!
                 <CheatEntry>
                   <ID>113679</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1588,6 +1610,7 @@ decodeFunction('c-n2tu=m7v7zN/{*}^ZKu)g7wh).6Ke}Y$.AaIRKUg%P3:+?JyLvPRv]Dlp@HFT!
                 <CheatEntry>
                   <ID>113680</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1662,6 +1685,7 @@ decodeFunction('c-n2tu=m7v7zN/{*}^ZKu)g7wh).6Ke}Y$.AaIRKUg%P3:+?JyLvPRv]Dlp@HFT!
                 <CheatEntry>
                   <ID>113681</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1736,6 +1760,7 @@ decodeFunction('c-n2tu=m7v7zN/{*}^ZKu)g7wh).6Ke}Y$.AaIRKUg%P3:+?JyLvPRv]Dlp@HFT!
                 <CheatEntry>
                   <ID>113682</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1810,6 +1835,7 @@ decodeFunction('c-n2tu=m7v7zN/{*}^ZKu)g7wh).6Ke}Y$.AaIRKUg%P3:+?JyLvPRv]Dlp@HFT!
                 <CheatEntry>
                   <ID>113683</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1887,12 +1913,14 @@ decodeFunction('c-n2tu=m7v7zN/{*}^ZKu)g7wh).6Ke}Y$.AaIRKUg%P3:+?JyLvPRv]Dlp@HFT!
               <ID>116121</ID>
               <Description>"[Items]"</Description>
               <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
                   <ID>116128</ID>
                   <Description>"[Admin items]"</Description>
                   <Options moHideChildren="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
@@ -1994,6 +2022,7 @@ decodeFunction('c-n2tu=m7v7zN/{*}^ZKu)g7wh).6Ke}Y$.AaIRKUg%P3:+?JyLvPRv]Dlp@HFT!
                   <ID>116186</ID>
                   <Description>"[Guns]"</Description>
                   <Options moHideChildren="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
@@ -2442,11 +2471,13 @@ decodeFunction('c-n2tu=m7v7zN/{*}^ZKu)g7wh).6Ke}Y$.AaIRKUg%P3:+?JyLvPRv]Dlp@HFT!
       <ID>115219</ID>
       <Description>"💡Misc"</Description>
       <Options moHideChildren="1"/>
+      <LastState Value="" RealAddress="00000000"/>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
           <ID>1</ID>
           <Description>"Save config"</Description>
+          <LastState/>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{$lua}
 if syntaxcheck then return end
@@ -2462,6 +2493,7 @@ if ~syntaxcheck then return end
         <CheatEntry>
           <ID>2</ID>
           <Description>"Load config"</Description>
+          <LastState/>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{$lua}
 if syntaxcheck then return end
@@ -2478,6 +2510,7 @@ if ~syntaxcheck then return end
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
-  <LuaScript>decodeFunction('c-nnXO-lnY6nv=1yVi/QPgal}7V%*EF4l9[Qco2ME%hiN8]^wAChVqP.31((.MKp-A5#CB+{B?B5At{KJSH:9-kH*KoP8dZswM1V+If*=S66d[0NKIaUiT{uIY8ir5V#./97Dh)2G9l_u!{1az{gu20C-z%^@s].d4MldfNRUOCI)%CfkVrMPl9yJ@=*YbM9iq;[[#{#Azk^7M$;QJ]q+WWOnIw}tJ{?mYpo.MIF$3arV@/olM)iQp;B?UpGACsSMQC4QX)GS?P#EFavdlY2{ZS$F=RYwM.w/e^6t0kD3b_xTU2cy%PiqmO/zoSa+FaW)5?Hr15h{}BWYVp9s%UoXgq7XXm)g.cQ3PBmWpR88BbGO$rMes478=f*Dfx1n1+5D:Nkn7*HgWqUy{')()
+  <LuaScript>--if you see this click yes
+decodeFunction('c-nnXO-lnY6nv=1yVi/QPgal}7V%*EF4l9[Qco2ME%hiN8]^wAChVqP.31((.MKp-A5#CB+{B?B5At{KJSH:9-kH*KoP8dZswM1V+If*=S66d[0NKIaUiT{uIY8ir5V#./97Dh)2G9l_u!{1az{gu20C-z%^@s].d4MldfNRUOCI)%CfkVrMPl9yJ@=*YbM9iq;[[#{#Azk^7M$;QJ]q+WWOnIw}tJ{?mYpo.MIF$3arV@/olM)iQp;B?UpGACsSMQC4QX)GS?P#EFavdlY2{ZS$F=RYwM.w/e^6t0kD3b_xTU2cy%PiqmO/zoSa+FaW)5?Hr15h{}BWYVp9s%UoXgq7XXm)g.cQ3PBmWpR88BbGO$rMes478=f*Dfx1n1+5D:Nkn7*HgWqUy{')()
 </LuaScript>
 </CheatTable>
