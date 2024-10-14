@@ -819,7 +819,7 @@ decodeFunction('c-n1]!AiqG5Qb.NGzq}^!IKs_l@Sm})EDzKdJ!oIy}=(3B$#AFcB96N;ofR5i4P]
               <CheatEntries>
                 <CheatEntry>
                   <ID>116252</ID>
-                  <Description>"Esp size"</Description>
+                  <Description>"Size"</Description>
                   <ShowAsSigned>0</ShowAsSigned>
                   <Color>969600</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -966,7 +966,7 @@ decodeFunction('c-nQ0!AiqG7:-]Gl7[^ih!,*P4/apIc4KnT){rkI9twqCWs_HL,-5@IvF4U^?JW1
                   <ID>113588</ID>
                   <Description>"Speed"</Description>
                   <ShowAsSigned>1</ShowAsSigned>
-                  <Color>AF7DFF</Color>
+                  <Color>0064C8</Color>
                   <VariableType>Float</VariableType>
                   <Address>npSpeed</Address>
                 </CheatEntry>
@@ -2510,7 +2510,7 @@ if ~syntaxcheck then return end
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
-  <LuaScript>--if you see this click yes
+  <LuaScript>--if you see this click "yes"
 decodeFunction('c-nnXO-lnY6nv=1yVi/QPgal}7V%*EF4l9[Qco2ME%hiN8]^wAChVqP.31((.MKp-A5#CB+{B?B5At{KJSH:9-kH*KoP8dZswM1V+If*=S66d[0NKIaUiT{uIY8ir5V#./97Dh)2G9l_u!{1az{gu20C-z%^@s].d4MldfNRUOCI)%CfkVrMPl9yJ@=*YbM9iq;[[#{#Azk^7M$;QJ]q+WWOnIw}tJ{?mYpo.MIF$3arV@/olM)iQp;B?UpGACsSMQC4QX)GS?P#EFavdlY2{ZS$F=RYwM.w/e^6t0kD3b_xTU2cy%PiqmO/zoSa+FaW)5?Hr15h{}BWYVp9s%UoXgq7XXm)g.cQ3PBmWpR88BbGO$rMes478=f*Dfx1n1+5D:Nkn7*HgWqUy{')()
 </LuaScript>
 </CheatTable>
