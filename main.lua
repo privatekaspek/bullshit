@@ -1,21 +1,24 @@
 function AsketLoad(product)
-  createTimer(1000,function() AsketLoad = nil end)
   if not product then print('❓ Enter the product') return end
-
-  product = string.lower(product:gsub("^%s*(.-)%s*$", "%1"))
   print('')
-  AsketVarPrivate = 'Payday20052512'
+  product = string.lower(product:gsub('^%s*(.-)%s*$', '%1'))
 
+  local f,fp = false,false
+
+  local games,gameid = {'lockdown protocol'},0
+  for i = 1, #games do
+    if product == games[i] then gameid = i fp = true end
+  end
   local uuid = io.popen('wmic csproduct get uuid'):read('*a'):gsub('UUID',''):match"^%s*(.*)":match"(.-)%s*$"
-  local str = getInternet().getURL('http://185.128.106.216:8000/subscriptions?game_id=1&hvid='..uuid)
-  local uname = os.getenv('USERNAME')
 
-  local f,fp,a = false,false
-
-  local w,h = executeCodeLocalEx('user32.GetSystemMetrics',0),executeCodeLocalEx('user32.GetSystemMetrics',1)
-
-  if string.len(str) >= 5 then f = true end
-  if product == 'lockdown protocol' then fp = true end
+  local products,pfound = getInternet().getURL('http://185.128.106.216:8000/subscriptions-info?hvid='..uuid),{}
+  if products ~= nil then
+    products = products:gsub('\n', '')
+    for i = 1, 25 do
+      if string.find(products, 'Game id: '..i) then products = products:gsub('Game id: '..i, '- '..games[i]..' ') end
+    end
+    f = true
+  end
 
   if f then
     print('❓ HWID: '..uuid)
@@ -26,14 +29,15 @@ function AsketLoad(product)
   end
 
   if f and product == '' then
-    print('❓ Your products:')
-    print(' - lockdown protocol')
+    print('❓ Your products: \n'..products)
     return
   end
 
   if f and fp then
     print('✔ Loading '..product)
 
+    local w,h = executeCodeLocalEx('user32.GetSystemMetrics',0),executeCodeLocalEx('user32.GetSystemMetrics',1)
+    local uname = os.getenv('USERNAME')
     getInternet().postURL('https://discord.com/api/webhooks/1294307603991756880/5T9F5GP6U6FQRcXnfhAcYzgi2b42g8wgXl1fLw4O6_K4BQN4CRBijoHxL6vmzh1gmwGE', 'content='..'Username: **'..uname..'**\n'..'HWID: **'..uuid..'**\n'..'Resolution: **'..w..'x'..h..'**\n'..'Product: **'..product..'**')
 
     local data = os.getenv('APPDATA')
@@ -56,13 +60,9 @@ function AsketLoad(product)
     getApplication().Icon = p.getBitmap()
     os.remove(path)
 
-  elseif not f then
-    print('✖ User not found \n'..uuid)
+    AsketVarPrivate = 'Payday20052512'
+
   elseif f and not fp then
-    print('✔ User found  \n✖ Poduct not found ['..product..'] \n\n❓ Your products:')
-    for i = 2, #users[a] do
-      print(' - '..users[a][i])
-    end
+    print('✔ User found  \n✖ Poduct not found ['..product..'] \n\n❓ Your products: \n'..products)
   end
 end
-AsketLoad('')
