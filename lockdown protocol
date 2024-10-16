@@ -77,18 +77,6 @@ decodeFunction('c-m!-u=oU46h(Vp*EE$5Rd6bzTP=W1B5n=X.40CkQkoh[Qng#}7yKdpGlLEe-r.f
               </Offsets>
             </CheatEntry>
             <CheatEntry>
-              <ID>115223</ID>
-              <Description>"Max HP"</Description>
-              <ShowAsSigned>1</ShowAsSigned>
-              <Color>6400C8</Color>
-              <VariableType>4 Bytes</VariableType>
-              <Address>clientp</Address>
-              <Offsets>
-                <Offset>90</Offset>
-                <Offset>A40</Offset>
-              </Offsets>
-            </CheatEntry>
-            <CheatEntry>
               <ID>26412</ID>
               <Description>"Alive"</Description>
               <ShowAsSigned>1</ShowAsSigned>
@@ -383,18 +371,6 @@ decodeFunction('c-m!-u=oU46h(Vp*EE$5Rd6bzTP=W1B5n=X.40CkQkoh[Qng#}7yKdpGlLEe-r.f
                       <Address>clientp</Address>
                       <Offsets>
                         <Offset>350</Offset>
-                        <Offset>690</Offset>
-                      </Offsets>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>116199</ID>
-                      <Description>"Precision Reactivity"</Description>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <Color>6400C8</Color>
-                      <VariableType>Double</VariableType>
-                      <Address>clientp</Address>
-                      <Offsets>
-                        <Offset>360</Offset>
                         <Offset>690</Offset>
                       </Offsets>
                     </CheatEntry>
@@ -714,18 +690,6 @@ decodeFunction('c-m!-u=oU46h(Vp*EE$5Rd6bzTP=W1B5n=X.40CkQkoh[Qng#}7yKdpGlLEe-r.f
                       </Offsets>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>116247</ID>
-                      <Description>"Precision Reactivity"</Description>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <Color>6400C8</Color>
-                      <VariableType>Double</VariableType>
-                      <Address>clientp</Address>
-                      <Offsets>
-                        <Offset>360</Offset>
-                        <Offset>878</Offset>
-                      </Offsets>
-                    </CheatEntry>
-                    <CheatEntry>
                       <ID>116248</ID>
                       <Description>"Recoil"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
@@ -783,11 +747,11 @@ decodeFunction('c-m!-u=oU46h(Vp*EE$5Rd6bzTP=W1B5n=X.40CkQkoh[Qng#}7yKdpGlLEe-r.f
 if syntaxcheck then return end
 [ENABLE]
 
-decodeFunction('c-n:M-AW?d6vtB.OAUy7.mxiffi2S69VHptqP/GD:#;]+K]$1OOnTNGO)rFoYJ1mr?P(M^-Arew6_@2gKF/05PfkAeE,+m/eSO{;-+C[f8ja{^dbQRQuc4Zs^8%hEwtQDd9Nlt][Boo?:NvWp9MxYq;U+%sQSAWD)Wd8uFMam[]IWFkn=8yhf{Nq5jl=Xbv:et(95kdd4hCnzwwUCm=.Pkv!S27_M!CB%iIXDJW.9XIa=%21)S=x?BlDCEt.vlv;hL/vy6wZuzv,0KW[L$0h3Nd4(}w5V]NhbfO)-Lj]W9lLl#xXy4LWKvN?-N44KY=C0o9Ub1YtF_kWXwDE,f^0%spA@dzcWZ$K/z[*1U0+Ci,gj:RN}c/aiSttO;@Lb-^JYF1=9bf0Pk/$WG(rsMC]rMUOgfp=eQi$HKVq6:%{s)YaDf3u6Oc.Z+BxB]9yD.1_NrBrCVjUa2Hrl#)n/?hLvWR)36*t5/o.m,+[sjL9*Bp]IV[QkR2uGo2V!^hY9d-n0KBi[vQ')()
+decodeFunction('c-n/gOHbP^9CxOyDweA4z-2;1mR3-r1=2R;p)l3^J#nan#10dh9On-U+l{eirM;k#?P,tHe1Xkr%0mOhUzT6LmmfPP6,cB@ZaerZ[S:5Dy+NWp72Gfnd2X[_UVhkeT=.Yvn:!P?)5kg!sLNKUb.r:y5xWd_]*GweI-dV_Y[Fj[/7R5_IWNKgH08@TFME@?d(9Wrw{sRel4HNat5T1x1)izJ^)J8:;0GB*?IvXVk]P#70E+}Di_b6@6jP(1EwnuNnHNWcgVR6xY=c=7hp;QX)kFC6.,Xu1NirZbCX}7sVlJf=wUYuBbz?3t*Yyg=OP,!Zgw7z]%ng+4DZ*p?7!ajnHu?1JM5r10WyIopoD9yRAk(q+Ku8@O1+Eom(gl:5@XS[eEM7qq]Vzfz:q4BAdan+udTwnaqIIpa7fKy%1kJH*^#y8,/i9(yNX@TT9]:T^UHW)wXYn?eS!)m1qs=yfRBln_8R[GOG.-r+Zc8wBsZuS2hd:PpYxNJqthZe')()
 
 [DISABLE]
 
-decodeFunction('c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+42)bqCz#6wqSzQ57}(lq7}}un8rT^f7+re?7{yRtFgOAgsyHw)sxdS$umaVw2sjpJr/Q}z76lY#mL-.=vhW8aR.DCY8W_Xv8krgzv2Y}k/QJzpyRz@mmX[o?78j?HCgr4x[!lP@rKaXtaVaRIBq[KVD.T(b7#b:#87erNC;R)j7#IK%7guRsQEGZ-aY/?Xab/2(evSr2n/iIEYGO]Kelm!ko0[Z1$bbz10KvF49^')()
+decodeFunction('c-n1=K{+9x6og-74e3JBgO?6lcPP?^cB8%Y@kT869s*wIvPm9N,%(M8sJZ1o@bh(dT/yV2hhdn3Z_:68d4b7sEN]VqM3Q^%.9v7kiXaL[^;[U}h![Z7iC^]F!}=.M28h22vH.EqqI)$NGH}KL@Y7g5jLY5r!=Y{{a=?9*PnBAxOPz_Ow2kNWvlyGMZ8Gn/E-c@VzI4ool_-xx,(rM#pw^?Las7x(qf*[Ab[d6Ad+8D2eO*wme!4AW#m3sE^M_Lz3mL(V^Q(p$G%E')()
 </AssemblerScript>
             </CheatEntry>
             <CheatEntry>
@@ -800,11 +764,11 @@ decodeFunction('c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+42)bqCz#6wqSzQ57}(lq7}}un8rT^
 if syntaxcheck then return end
 [ENABLE]
 
-decodeFunction('c-oCt(2Jmm5uaJU^os/498fM_r.!+)XzV6%DH;_%o[56##e%,K+-8ObFxKL.OqAj)/jS;+0*DHc7SI,5nif8@K%KU3l7oRBd+wDx,Eb8I^)zu:Ko7kZ=!4W%B$W!S2]u-]Z,/gx-puUoys*)It.3mLjoD^yW--gUy8+-B]5!q5NDC2+)]EWIz:0c%15+wNLpU)w2r(8%xI}/B01d_lQ?G(v5kk76evE4pxBKq9hBFT^LO=@zlU^:eGSCzPuR5Q:eZnHbFhY1l+!xZuKND4wGw:?q$WUZ3!:RP^xL;V7@bP{j!l23oJbDK.S}4[sXdKm^c[hGcj)+lysKeslqMytAV-sNU$o$2):s.*aEbNrq]ymfDyzW{Jb.k:hn@@M;n%,UVRGKT#(6b)9-S(IDT4!V4e(D.k9@bv$:98DacH7?R-*sGtzgD=mcll1M7w}THVE3lqj@PWo^QsU@EH;XRzC1f.Gkw:/b:c]150//G-sMd/2*eDC]vLD2P$irh,kV@cvce7zR],.@H]luUHt,SW*L4Pv/:e!r]c1y%Z,q=fUH1Hbk9RMXFD}$4^eU9aUFPI-yH]jnSkO_;6r_T_w0$pNlbf5^=H2C?dt0wwa!XsUmfh0icQ)]CKv%9-h.WGruUC=5cCI4X@v812-#YEq+/pndquJRq8I%g.G:hmV0;+oLEWb@50l)JT/z1G()xI%}?!HH/=Zi-$i1;esu6wa*^^?r2a},]G0X+l#Y9Z=:d)iDCcs7,}FUB)Uqm-Rg7KtnddM(XZ:rsf8iLa(lj850[^YXze8dBeWLNf6+vdb7wmHcK;JBIxX5YD8118T6}Jb?MQ1VX^!JZQp+YT%,y5ebZ3Vrc@1Lmjr/Lv1DmoN*!b.^5v[62DG961)pUBb/ji3jL;}h$7-gp%x.:f*q/gu@^LMj(RV3InpQT44w3)%iM5Ko9ZvqrUqnD7^[eFV;Tw*nA4*BO$iD(l6*_yL^7vwEF]#VCOFs$E*+UqTv(=#hT;a[Zz^gRBZUiH?vkU.R]HqQD=C!T(:h{B?omLN#V6d6]}*{98Oc#?aNg.DHQ}8AP-i#dn8@:?Ica0O:%OZbHYH-.MjU%z]aZ6gwQ=}Jw1?sF=Su1q+uulF*k}QF#XCHS2bNCU;Hd/6FRq*6(pM99Jflu@PUDE{oJO1%$-g1jeYqBfi)?d#8]aTS%%M*%#rY(VcZ{i%;%{lV;qtJsv621{G9K%kJMs+Ta-(f$WRK{@eAG^tV$d4y3M[:5Yxn7X6s:?FB@#YS8K2]{M%RQ?+945uYwQt}s}G{{$MJ)LV/5jumN7w:a*e5sHOQaou4:?wXm4vZ3@h7mR^DQ0!pw4+#9.ycj)nXE2gOIvu#CgdR@j.mg7yddC9$fhp0Qto?L]f=u+bvIIL0X[)G;w7s#?8nluq]mi;G8S.5m99N=ZBNrWkQ?#LqQw6_TBpXmVeQ@#cRfpeUaS%Dn{PA3V!?$B5RTfi,O*^k.+cf$KgO,iX!DY#09@F+_zmkMZ5T]bgf+?T%58DTjZOvV0bZ])di1e4C^EQ0a1%U.DjiJ,neS=-O:{+D},pLM*TrM,pz_RF9aqobtkiw.c1rk7NJ%rk3]2EJxS0[$,vx;Uv$*m4*GHI,GaWkLt,Aa8cHWO+!.V9[2/OT#/4YV)u%;NB0cai07C)i2M!teW2tR@qx1J4VV?i*azO-,x.(e%eoG9^f%UHk}.C[WBEM%Kz/(x?]E}mKtqT/[=jkP+[yvkL(pi9=eCUO0xKtgub0@P5UVvR$HfxM%Z:pcc!zf/zx_AZz/lYM$AJGge,)uTH789{^oOskL![#_-wB2jQjT0Sd(!3R*}%vsUzC%?L?}I^J0tSNCMTYMaQ.G)cbY6qn@h:kikVg:T2*Jz8M3@RW?l?a!qczMO?,=[Jy}Q?/f$SRSc+W3:tCrd3Py@Q%L+{5/j;dto-C^s]RlvCO%}bVUQgAr*0i+2g$EBFs8oIRn[m}1?z00942vwYxycIYSxPloF/F5jHd^$CV4BTX?h8QB,qp[+xV}H)SyyC1g4;KW]3@I?!0VKm-lTDt;AknRLE+NlOyM/53n)Yw!oLP06)dOJz9sJ[Z!;,x,vUkTXuIv!PG@[u%)8*3/#HfoCQZoxzC[vz)HlN7@mX#gtg5#cwEPY.s]0R[FY#N!aLhE]YBgoN+Ze)ZzQJ2Nw+zLWR$!+.9Q^@^T0$!@t-=.zu-**!hVN3Rr2^v!=zDO;dh8Gp(L(eSLmdq=)ZWd[#_+xJXEBf8z_(a3:kW{@f@E#/1fIfgl9h):zkdG#];4e[')()
+decodeFunction('c-oCt(u/(Y6?G6y]-4kLc1t-.oSLRxp_R]0r6^POd*g5xDo()GiR:WZAsB0NEEA/jg/QE-Q6RHQETQQkXj:G=9#XdoT:dfapy0-7Q{ocH=SIg74=Xl,xNml6Datkq6X5Q9-{}mxH#2W^--{Dz^u.dSvkCX4%N+u7cix7;-=/-n2uQ_W=3OBYvA}1to)Dw[q$NF:[9R$C4;%F0JwVIjU]q}sh!E008pgPxaCgW+u*KMgmJ%9rp5g^Xkb#zz[=Gt([6Umz!wBJku#deOsyIWL!S@#z(ybXdHHb0^u,E@yBpket#utnz]wSY3@U(ItuxBs80o?)B_Kq)c;,s;1)TD2)FB^0VfAUR]?HJWsJI*8,7s1/pf3?Gf=FWJ#TlIHZ^!XP[o}z8wRG8E3@ai4}z$X0dpvMOTv3a8-re@)4r]J3.X#Y@WTs]mh#YTG(i2h)[@G2?_!^:Rf^jOUowcag#V]k1{:BD57vJ)RlEcrX4FIqeZ]t2Lrffy7{Z#c7;y-u(s3L7F:+%DpRTJ86mVlcQ_X9aObG;Kj7wZu{d;30[Hu..f2qCZ:=xF}_P9a6BlEGTDlP*JX)U{$6N,t/:xv)pycU}BzCrB,=PFgsgbzwk.m]OnPJrNZgLa)(@q*,k$dgB8XG(CFD2K*Fy!XE;H;XJW9$?:Y2Sh%4/*)P!DqUD{n}eup[L-55$18edEFzZ/+m=:h);=g7.X.90sC0i-(oxW:en7RbJ=aEVgYn?tsWnrf.DM)n$i=-sqW7{a20qbla^-6!(-]G-]iV8rugNm{fCsV?@;j@ak[4?dFDryAAqjOEpcpZYRm)+MYMh7//_p}v7M]NT759F.f(.xiM#oEX.022/H+sAP-4WD-{H%uG[8dnP=U49:/bhYP=XilC%N$0C(y]Md=_eAk!]0jIfym%RVJhs3A#XX0]49ce^1SU_AuQt}JyeiRxZCtXOoLehoOwD:e(N.oPf#VnKJ6l2#tG;YD]M6?A]U;[O7=eQ?-jj;M.;qb$M,*)kQU6eVQ.EM@4PJ,^@#/:(Y:4*I!ny,!%;4a{/^$/VAxHL6i/LGKW*BM+oU+poye2rsH@HK9)H(kt5nBW$AV_$bvt?pI7Cp@r9Ub[]+raZ^:YK)n}qoMXp*pZ/K,J]Fl)YQJ+9[8UK(GQGE2aO3;$KA*y3!Eo-@H1YR$0Y7*xvcfY:SG-)42ya80!d4C#N!{2C(j/6=4h#3:FtR/@TuPe7UwXg$Hn[e/8YGnO6OFVu9c6}(+WJBK$iH}vwZA%8s}:NT$w!+i.m:RNrTbA6/FkdHTLMfAFgC+zp@GhJAc95jA:l2fj(i)@9DPh/7$Nfld+p3Dh-qu6JKeP/V*=-yp,$zRf9NLI+05@7#gG?tMY#oVP-i?bT_-xO1Uym;L7gv7*por]3fAJA96IGd(XNebj]SD0PiRJEZs?I8f#SVLgkkr^G}oC[qdL!dgak@RSS5Q-o0w9dS,9MIBJeuBU+vC?Nb5im$cruqE#rVXM+a)8U8t+Gr[3NL1ACqf0lQV6{{0L$OF9xzq0t7!11f]n04A4mxsSrm;d56Aim;2K2vv[uNe*R(+k[*]Re%}=t=T(XFxvwM#u8B:k7:0mCPHIbC0n7:t{0{XfgI[oaRa5K}C_OQy#w;@Oj;C^=-bwf+oB_]B^k1k#0HKH]+sQ5xu7Nl?(epE+_6ZF_JIxi!t{5.e,;7^eDk/I/x9yJHJB;h(%eyvJ:z/G/wuq@n2Ugv:Pv4gmb$,Xj3PGNUz]cQ)f/Elh3BcKGn0FzSNcPl%EDxp8}#8W_N0ly-[^tmRVj,q]v7JqCfSmXY3}C%g@3RjM_p8Au6._/11.Kk=ZvQ*+wliZ^IAb^kW*Fk7K3amgtW87h8gOy]6LCOQPFiS(}.JMWlzUGFi3qC59{oy[uPMweaZi#.Nefz*XxxiagS!0vqX05%Um9pn^bmm5N5{6#3oNKP85fBA/Woi@Rwt(h/zyJJo!N7w,A:mw?I!KlyoyS@xg?r)ua?u3ck:bS;q(It^hEhuBOt#ef,uW2GOJMrr4(*kFJIdCab:k[(Dz**E]c?(mtHVP:c@U1kp6=FWTh]m72sYlCoVeGC5=xpWvo,88eRH$.b-Z{@*cX(7DJX;W8lsUTQ3?M{VKjLfDMxwoy5jz-Kzj}M0{WoAyz-wN8jF0+QJw]=wno55ipYQ58LDZN+ETg-k^v@Q:A%,;^C-fUAP7-eQuPbRJCDP)A)g+G{kg[HOqX7D8D?i^z!1$-V}ptqrmIXs5P?$2-s8SsC8^^zK2!HW')()
 
 [DISABLE]
 
-decodeFunction('c-n1G!AiqG5S;le7-CBVPbz2,rKXos3%(0e*Qd/#:uKqXj5V0-mTaQNi)7xeA8P$C!EG)+!FQN;Z,P;DIlL.x4eWn3]}#nQ*bn0O?Qd*75g=Y-+U}=;#RUd.jKL8D.}EAnX24xA+arT=83%5N/v?t-7Yh!T?Cnyu33IDMaE!})fX@K.+05YUU]K;IHMr(PPHPUN#SNUWuQ!*PHmkPIYJ-8m-lw{/KVmTw]7lqOM1eFIiYgXWzt/b_2d91NO.V+XI.Rx%jCwKZB3Bi4b(5FKBb)poRwfcjgGgmFB}ccUDrG?.QYB*$kjN;mC-:;jsk[Pvn#BXkKf1dK4m)YhF;Q#lP,V*w#wpTvDRZ1Ay1-ml+.u8aPF{I($0+WNO+V=afA_J;#9jC')()
+decodeFunction('c-n1GO-sW-5S?*f46)IBPgRs2N:,{N7JA;cc:J#YdK1_.V-0SSl1/cjapPa]4@^t^.93KE?EvB{n}yil)Pbg8p!3%B4{J8_@PcALi^OznV3stt)m%Gr1r9fy!wCoD8V*@fz{.{z1?XhV0AZNrz=jWq!:SP]0LQrO9E5Pd+v5P1fGsic.lQ/cb$S*Bo-lCAKVMv!g5Wz[k3JaKw_DVC:zGfNGMi:5gUktAGg+eR9FInm?#Jib-cqHSrWc5$+XV[$@DHgV*rx4^X7x_*PEBx6r82ZLQL?5DblZ))lnlRDTiyJQl0SM[dj+3oB[TFtk+7jyiWiEoUnCi:BArvF%XpEhKu6Cs?I#VHrOR3_[zz#nvr_R')()
 </AssemblerScript>
               <CheatEntries>
                 <CheatEntry>
@@ -2477,6 +2441,6 @@ if ~syntaxcheck then return end
   </CheatEntries>
   <UserdefinedSymbols/>
   <LuaScript>--if you see this click "yes"
-decodeFunction('c-nnXO-lnY6nv=1yVi/QPgal}7V%*EF4l9[Qco2ME%hiN8]^wAChVqP.31((.MKp-A5#CB+{B?B5At{KJSH:9-kH*KoP8dZswM1V+If*=S66d[0NKIaUiT{uIY8ir5V#./97Dh)2G9l_u!{1az{gu20C-z%^@s].d4MldfNRUOCI)%CfkVrMPl9yJ@=*YbM9iq;[[#{#Azk^7M$;QJ]q+WWOnIw}tJ{?mYpo.MIF$3arV@/olM)iQp;B?UpGACsSMQC4QX)GS?P#EFavdlY2{ZS$F=RYwM.w/e^6t0kD3b_xTU2cy%PiqmO/zoSa+FaW)5?Hr15h{}BWYVp9s%UoXgq7XXm)g.cQ3PBmWpR88BbGO$rMes478=f*Dfx1n1+5D:Nkn7*HgWqUy{')()
+decodeFunction('c-noC-%A2P5XWb8)o,njo-[y[BznkD$*5KVdomCddyMT_bn)1B=$%W3VIjD^+Zu_n5bG}%(mZ}Lzz,NQ(cMukFFP}VgTmKYrkFtsEo)7:W8BOs0b*MsEuI!kN(/x!O5uuvPHGBes*1_)Y__J}8$Pv7R]Bx=)I%_5Hr)9tX2(al:ulgMjw0QH=?a:3(73vW/Qg;O%@b_z.e?LJ3%Y?LV}S)0%a%j7tXHdzdZSiH%W-AMTWu[EJ4@4Sj(vqNIrmC[AeD5ai^+pV-7A%6.XT_{dSl]H!W-T31.[Lg6W+f=rkLt7kGl:D1_k%%E,;H55m$fpOwV[PQaq=)(giyp(_ykQ50ibNT#i/Y]CHC90XJLs#gqpZWN#:rW@4ZdPSSf?,vfB#1)G!OmW?3rebi!G60t2:;GSv,hle4a$4ktVw3TAcxFbS@$cDp^-53J?#4j]6c2*')()
 </LuaScript>
 </CheatTable>
