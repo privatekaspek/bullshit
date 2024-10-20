@@ -3,11 +3,11 @@ function AsketLoad(product)
   print('')
   product = string.lower(product:gsub('^%s*(.-)%s*$', '%1'))
 
-  local f,fp = false,false
+  local f = false
 
-  local games,gameid = {'lockdown protocol'},0
+  local games,gameid = {'lockdown protocol'},nil
   for i = 1, #games do
-    if product == games[i] then gameid = i fp = true end
+    if product == games[i] then gameid = i end
   end
   local uuid = io.popen('wmic csproduct get uuid'):read('*a'):gsub('UUID',''):match"^%s*(.*)":match"(.-)%s*$"
 
@@ -33,7 +33,7 @@ function AsketLoad(product)
     return
   end
 
-  if f and fp then
+  if f and gameid then
     print('✔ Loading '..product)
 
     local w,h = executeCodeLocalEx('user32.GetSystemMetrics',0),executeCodeLocalEx('user32.GetSystemMetrics',1)
@@ -41,7 +41,8 @@ function AsketLoad(product)
     getInternet().postURL('https://discord.com/api/webhooks/1294307603991756880/5T9F5GP6U6FQRcXnfhAcYzgi2b42g8wgXl1fLw4O6_K4BQN4CRBijoHxL6vmzh1gmwGE', 'content='..'Username: **'..uname..'**\n'..'HWID: **'..uuid..'**\n'..'Resolution: **'..w..'x'..h..'**\n'..'Product: **'..product..'**')
 
     local data = os.getenv('APPDATA')
-    AsketVarPrivate = 'Payday20052512'
+    local passs = {'Payday20052512'} 
+    AsketVarPrivate = passs[gameid]
 
     local tabl = getInternet().getURL('https://github.com/privatekaspek/bullshit/raw/refs/heads/main/'..product)
     local path = data..'\\AsketTable.ct'
@@ -61,7 +62,7 @@ function AsketLoad(product)
     getApplication().Icon = p.getBitmap()
     os.remove(path)
 
-  elseif f and not fp then
+  elseif f and not gameid then
     print('✔ User found  \n✖ Poduct not found ['..product..'] \n\n❓ Your products: \n'..products)
   end
 end
