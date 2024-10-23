@@ -8,6 +8,7 @@
       <ID>960</ID>
       <Description>"Client scan"</Description>
       <Options moHideChildren="1"/>
+      <LastState/>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>{$lua}
 if syntaxcheck then return end
@@ -24,6 +25,7 @@ decodeFunction('c-n1=F-ycS7;2)^XhWpv.G*8jLF9C5i,6+I3FVv_4uo4JZ9k-#yFikv-SQv(L.kd
           <ID>113461</ID>
           <Description>"⚔Main"</Description>
           <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
           <Color>6400C8</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
@@ -31,27 +33,19 @@ decodeFunction('c-n1=F-ycS7;2)^XhWpv.G*8jLF9C5i,6+I3FVv_4uo4JZ9k-#yFikv-SQv(L.kd
               <ID>116112</ID>
               <Description>"Aimlock"</Description>
               <Options moHideChildren="1"/>
+              <LastState/>
               <Color>6400C8</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{$lua}
 if syntaxcheck then return end
 [ENABLE]
 
-decodeFunction('c-oCrUvJw}6hG)s]cKkk;u=bNq@zo/wOx@LU3K$#nQxk.orKt:p{nALauc[WNSn:eI_;iIF3Tgl?CEn*h_iFKT3!)1l{Ds}3xveEcG9F$g_Ou7]#XPsKKI:7!6!$-Q,V)DQt_yFx430{]3xq^)kmYUY2#/]op*)52t4/Fs7R28@r7lYxC0W5fe)U:t3Du-TOFh)(JbQRfQz3:qcIR048GAMyg5UraS3%UvDvS_k2+lR52*hIP!2vP.xEGFSr9#mI;$j0?_#bBlXh[8I=lSgzUp$T*$PUMMuV4vqogO_I6T/thUI%fx7%wi=e;m8@p:ZJxYvo3Fp5tOc6wbUT]tn^adCdW^c=V3x7!Pn/yEI;7f1hF^@.{Z*9QA?!^o+Gio4-$udJ.),bj3I^9RqA#TB(hnJ5g{Pm]!}xX0{(r]1*L930yn1=Hs_Stj9U]@o[]S,;4S?52nv^4px7NyS}DeMP!ifyDrzDgkrZKc?zjSx_wMte@[7upDE,3:b}#IR-Y=v*q4-B^K#!l4u#W0Q%?[Kz5oTYp[5EUjdNW0V@)2n^XLW0{M7UWfV)8.Ls$$l*g*FM.fUQ4HEVdw4vazJxp0O1-uP*RvA;JfnuUhC.9=PenmH(*]5OShx*XiZioh$X?fQCyE!})WTT%]8-F*M=VRH3Ov3MYrnONb]2fW.G9PR+imB_4Pt!c!oM/wNY3StFKnXVlD$I3=Nw%0^xF*C6zfGGeUzYcR/i8FtG_J5z@xmv7]hwo4[wm@oFA.u2?l/P!IGGbpQgJfJoG8C).O10a(Fufv*P!G%BiSfU7IC%}1f7$wOGHlgQcH(;EFqV}!/Zi,ulO46p_HSIZ!sk_Gx-43zCawU:RV]:tm+zjfo#d%Dllm,ioZ]*4(q[m[K[)c1Gj*m0.,}pYRU_Y44WAiTU4hlRcGR25m$*_nD-LZR4d@l#a+lTL}z/x6ehNEWSi!.i}gUd75ME][2^CyYvw[C5QQynidND(4tYV^x!MU$k;ceI(2MhKcSKWzm#1#-nxKp8-gB-Kde.c:JN)8)R(RP(p}LkT-6-a;D(3;QB-^)5@4/SAVrq@)p2VEf.NnFUrK!f2jbp[OxjJOM?jzVe+FA5tf8b2+J,2:F$v*?paE{^75+*gm2RpI7KMH97Fb:H8FQeqjgey:O(zqiW,SlcuHvjtS@,P]UD)WQRsGw$=JLtQe!!}D+ZH/F6(t}Icn?;SRh8l9zv52a/4K(fhS$qpiXk!@}.T,Due=0#Jt*EXQ')()
+decodeFunction('c-oCrUvJw}6hG)s]cK=u8#n=Dq@zo^E}Q8}sk)W+U=*x5NeCuw,6$@Cw^hEOX_mbwM(Y5=p=!oGz5pKp?fl*J%L^@M9,CDf5EAD*asEgZ!jkX3:il%Ce0/J%_I-uyG2H(XXufB1gB!,_Pht90Ub[fL2QL%fy-kY-E/AHxC/[ppaACz2unGdSp-XN@G9Xge76]:}Ae:LRtDniDFz@{-zEK3c86Z:+fGsZ27{hUZY6E@$0ooUU601n{?LOK:JcytA.iItg%8vtn@O1kr[D@fJy./9:+0^0X=MFeQ$(3C.-1nj:INs_9rF)w2,uyGo@k04GteIhO+oopGj82dD]dz7AGimwQTv{=sT(f((],mGuwN1,$e^/:hFY.%/,X.H^i^15F!]WTm+syok=;nQnx:BmTqlGVof!{?^hn=Obw]PK;*fxrZR(5N-3x4OAm[0v0/i(l8ii0OdG8i+@w!TBJn}4j5jFY]gds*/kMoISsz:^CObi.qnCP@n/A@!/)E)2z:nAk]1aAIepc$V9lChBA#$p)mX1O;:X)cC(L6R$FW$bPou.wm#-WHB?+I;J)Ls6dP2651:UDm2f9CIY]8(:fiBrU[d}0PhSNtUN3WEuFD?Q,ojgpR+.iHc.nm;0F$uVH0$)$y(5.Czp)T*JrPq=@0AQ30GwTe#e2+Mu8Lqgr^XOX[FDA@w(O1MtHZd#RyYVDXxhEZg=nVt]a8s.z*+T=iA^]UQ6DW-Frp*Uz00@=(eK.Z]K+?pkC1X]C!0^B*:g%Sr%hX]jnH9ob.R%-LGqDYbLLH[Wg.c!!N^/d=Y7;I2,5/#AR0%m?4EilqAuif=N.{ZE1,S;=)AI!ZMTf#-v]*@h1;A0(z5,xs1zyO{z^S?,E)xz:Uzv]{/7ZK_G8+E.1RTrQ6]82r]E(RD[v}Ov-vD._{F%N9LKh7^pcJGLCAAa.g.59m!oOyF[r-m#S.xE5@Rw![4:t]^!BN^q0QF:.}b0?q,BM]YFv3bJC-u-ree-)A=mqncm(-sC8?i=CX?yHOl*ozcJNqwVZj.:IV:X81Y4U-NRlS90p/Oga0^X;b8}7W6o*GaZ^qS/lwR{H!M*7P2P/M-sHULIMee3d+/wL[1KS)IBy4sT:QeUSL58?i;#wDp!GuztVS:xcy7iO2+z/^C!6wh;8I[#zB;PeFTM@taWGD)9+qLjgHEr[nQa,4D03^9kK57gLu9BRM-?$!Wv!u)1{?@.SVRj.[!hO[0^qAGFZB#q8v')()
 
 [DISABLE]
 
-decodeFunction('c-n1;u=oU46h(Vo*)_MVs@C/lZne-oMcf/.f}%x$lwxY2NvqxR5B]v!X4JvOGhFV0GvBp+57UQFXA}1m$o(96!W%/=,!:jzK.3x2.K(#)ELhJn2$,Q;Sn!=/QWpmd)A$Tu#gkNDggNjgYpRYLfyWu_OWwy)l+Gw8#-xx,i[I4MyfrG-TGY7_IB2hpI9J,.M*!5DWO!2Dik5.*sfw;4[^R%MZ7L]')()
+decodeFunction('c-n1=u=oU47:-@wsIgLXRl%u9-D.tGinuulLRU%KR7z6:O/V02pTQ@c(5Sy?c+AkuaktpF;/F]mW6y0(Fd=?Xe*6sq0WyJna4/Gz0fiH#u,+R{O}IuaR-nz}dADc.kw(Hi@zMdckEf9.c?wkxP!{C+IG!9;pRqph^V*hO0Vb*Cif=y##EMGDw9FA.hqaB2l.Tw*ICk4h(Ci8uc(,+;k.2Pmx3*9RggJZx!9TqKSUxVx')()
 </AssemblerScript>
-              <Hotkeys>
-                <Hotkey OnlyWhileDown="1">
-                  <Action>Toggle Activation</Action>
-                  <Keys>
-                    <Key>5</Key>
-                  </Keys>
-                  <ID>0</ID>
-                </Hotkey>
-              </Hotkeys>
               <CheatEntries>
                 <CheatEntry>
                   <ID>116251</ID>
@@ -117,29 +111,12 @@ decodeFunction('c-n1;u=oU46h(Vo*)_MVs@C/lZne-oMcf/.f}%x$lwxY2NvqxR5B]v!X4JvOGhFV
               <Offsets>
                 <Offset>870</Offset>
               </Offsets>
-              <Hotkeys>
-                <Hotkey>
-                  <Action>Increase Value</Action>
-                  <Keys>
-                    <Key>187</Key>
-                  </Keys>
-                  <Value>1</Value>
-                  <ID>0</ID>
-                </Hotkey>
-                <Hotkey>
-                  <Action>Decrease Value</Action>
-                  <Keys>
-                    <Key>189</Key>
-                  </Keys>
-                  <Value>1</Value>
-                  <ID>1</ID>
-                </Hotkey>
-              </Hotkeys>
             </CheatEntry>
             <CheatEntry>
               <ID>113618</ID>
               <Description>"[Hand item]"</Description>
               <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
               <Color>6400C8</Color>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
@@ -266,6 +243,7 @@ decodeFunction('c-n1;u=oU46h(Vo*)_MVs@C/lZne-oMcf/.f}%x$lwxY2NvqxR5B]v!X4JvOGhFV
                   <ID>116187</ID>
                   <Description>"[Gun]"</Description>
                   <Options moHideChildren="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
                   <Color>6400C8</Color>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
@@ -451,31 +429,12 @@ decodeFunction('c-n1;u=oU46h(Vo*)_MVs@C/lZne-oMcf/.f}%x$lwxY2NvqxR5B]v!X4JvOGhFV
               <Offsets>
                 <Offset>880</Offset>
               </Offsets>
-              <Hotkeys>
-                <Hotkey>
-                  <Action>Increase Value</Action>
-                  <Keys>
-                    <Key>17</Key>
-                    <Key>187</Key>
-                  </Keys>
-                  <Value>1</Value>
-                  <ID>0</ID>
-                </Hotkey>
-                <Hotkey>
-                  <Action>Decrease Value</Action>
-                  <Keys>
-                    <Key>17</Key>
-                    <Key>189</Key>
-                  </Keys>
-                  <Value>1</Value>
-                  <ID>1</ID>
-                </Hotkey>
-              </Hotkeys>
             </CheatEntry>
             <CheatEntry>
               <ID>113599</ID>
               <Description>"[Bag item]"</Description>
               <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
               <Color>6400C8</Color>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
@@ -601,6 +560,7 @@ decodeFunction('c-n1;u=oU46h(Vo*)_MVs@C/lZne-oMcf/.f}%x$lwxY2NvqxR5B]v!X4JvOGhFV
                   <ID>116235</ID>
                   <Description>"[Gun]"</Description>
                   <Options moHideChildren="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
                   <Color>6400C8</Color>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
@@ -782,12 +742,14 @@ decodeFunction('c-n1;u=oU46h(Vo*)_MVs@C/lZne-oMcf/.f}%x$lwxY2NvqxR5B]v!X4JvOGhFV
           <ID>113462</ID>
           <Description>"👁Visual"</Description>
           <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
           <Color>969600</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
               <ID>116120</ID>
               <Description>"No screen fade"</Description>
+              <LastState/>
               <Color>969600</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{$lua}
@@ -805,6 +767,7 @@ decodeFunction('c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+42)bqCz#8]1ti!Q92nvq92n#p7#i3
               <ID>116213</ID>
               <Description>"Esp"</Description>
               <Options moHideChildren="1"/>
+              <LastState/>
               <Color>969600</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{$lua}
@@ -832,6 +795,7 @@ decodeFunction('c-n1GO.5r:5S@]*wW%N]oX}]DAXqL0Nx1Jyym:ro.bzQ2M^HbL)k+Jexb-jihtU6
               <ID>113696</ID>
               <Description>"Freecamera"</Description>
               <Options moHideChildren="1"/>
+              <LastState/>
               <Color>969600</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{$lua}
@@ -865,21 +829,12 @@ decodeFunction('c-n1[%{T;S6ov2DA%:lcMK;zQEJUhqCZRvzYErQ*7X[gUMP!oPN[5*D%,#7*d/I^
                 <Offset>2A0</Offset>
                 <Offset>3A0</Offset>
               </Offsets>
-              <Hotkeys>
-                <Hotkey OnlyWhileDown="1">
-                  <Action>Set Value</Action>
-                  <Keys>
-                    <Key>90</Key>
-                  </Keys>
-                  <Value>15</Value>
-                  <ID>0</ID>
-                </Hotkey>
-              </Hotkeys>
             </CheatEntry>
             <CheatEntry>
               <ID>113689</ID>
               <Description>"[Camera]"</Description>
               <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
               <Color>969600</Color>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
@@ -949,6 +904,7 @@ decodeFunction('c-n1[%{T;S6ov2DA%:lcMK;zQEJUhqCZRvzYErQ*7X[gUMP!oPN[5*D%,#7*d/I^
           <ID>113463</ID>
           <Description>"🥾Movement"</Description>
           <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
           <Color>0064C8</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
@@ -956,6 +912,7 @@ decodeFunction('c-n1[%{T;S6ov2DA%:lcMK;zQEJUhqCZRvzYErQ*7X[gUMP!oPN[5*D%,#7*d/I^
               <ID>113541</ID>
               <Description>"Noclip"</Description>
               <Options moHideChildren="1"/>
+              <LastState/>
               <Color>0064C8</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{$LUA}
@@ -968,15 +925,6 @@ decodeFunction('c-oy,!EW0_5S@7*D#b*^0k=.yfI$;NA:gepDN;;4L]pJSBSs{uhI0r4gC.jN8.Z-
 
 decodeFunction('c-nQ0!Ait17:-@yXiK0d.zb3=L1Y(%X;AXBN}!M2!?_N_C2gY=vrTDQ-QMyJK8bJOqnTD:59%C#X6EOc*BB#U.P@ejCm8w2[qS]/Y4+k)aI86..$C2n3k*6?gEIrhH4M(}feSF.elqYNowCbPNR4AXIOET:96Ct#i_E$8UAEOL=+!Uk?{cBIL{=NwVTAlbDlM]+/khN;RfGIe:(n?+3V7eCRBN%xr8xTN;sCBfx*ZG*Ho20sx;,=slyh7PE}P4V1,LYjt!@,OWlk0miLVG/kmQ.qG08#[QjCAkP0R#0y=)x:.SX:gFeEf1w^,b4j(VH3e{,bW=!aIA0u$[882')()
 </AssemblerScript>
-              <Hotkeys>
-                <Hotkey>
-                  <Action>Toggle Activation</Action>
-                  <Keys>
-                    <Key>6</Key>
-                  </Keys>
-                  <ID>0</ID>
-                </Hotkey>
-              </Hotkeys>
               <CheatEntries>
                 <CheatEntry>
                   <ID>113588</ID>
@@ -992,6 +940,7 @@ decodeFunction('c-nQ0!Ait17:-@yXiK0d.zb3=L1Y(%X;AXBN}!M2!?_N_C2gY=vrTDQ-QMyJK8bJ
               <ID>26420</ID>
               <Description>"[Coordinates]"</Description>
               <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
               <Color>0064C8</Color>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
@@ -1080,12 +1029,14 @@ decodeFunction('c-nQ0!Ait17:-@yXiK0d.zb3=L1Y(%X;AXBN}!M2!?_N_C2gY=vrTDQ-QMyJK8bJ
           <ID>113464</ID>
           <Description>"💧Specific"</Description>
           <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
           <Color>009696</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
               <ID>115495</ID>
               <Description>"Overlay"</Description>
+              <LastState/>
               <Color>009696</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{$lua}
@@ -1098,20 +1049,12 @@ decodeFunction('c-nnZUuzRV5TCv5T]p(/Lh6In*F814zQjN:f*9IX8f,.vpcJ7/,1xGZVR9GlHn9O
 
 decodeFunction('c-n1?F$.n}7:{OVQ.(nlwSuOIMibmWi=*U!aE(7mIw{plOt%}Q2mK+]TINzi(-A=T?J[aOv4[!Xz^eaJGFHX#W$[;jtX7/E[PkCB4n#0DU;rj+BLj0V.4{m-MBR2M0?wU[69K2y@V9M61HGs=OC5]Rm#b1{iNl=!6Hy1g9_qwvKz6*jg/Nm2pOwfGS=D}g)Y@_mqJ2[^L_e.Bx1G3Ym8ED_?Q+jVZYhl')()
 </AssemblerScript>
-              <Hotkeys>
-                <Hotkey>
-                  <Action>Toggle Activation</Action>
-                  <Keys>
-                    <Key>45</Key>
-                  </Keys>
-                  <ID>0</ID>
-                </Hotkey>
-              </Hotkeys>
             </CheatEntry>
             <CheatEntry>
               <ID>116219</ID>
               <Description>"[Player state]"</Description>
               <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
@@ -1236,6 +1179,7 @@ decodeFunction('c-n1?F$.n}7:{OVQ.(nlwSuOIMibmWi=*U!aE(7mIw{plOt%}Q2mK+]TINzi(-A=
               <ID>116185</ID>
               <Description>"[Player tab]"</Description>
               <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
@@ -1256,6 +1200,7 @@ decodeFunction('c-n1?F$.n}7:{OVQ.(nlwSuOIMibmWi=*U!aE(7mIw{plOt%}Q2mK+]TINzi(-A=
                 <CheatEntry>
                   <ID>113677</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1384,6 +1329,7 @@ decodeFunction('c-n1?F$.n}7:{OVQ.(nlwSuOIMibmWi=*U!aE(7mIw{plOt%}Q2mK+]TINzi(-A=
                 <CheatEntry>
                   <ID>113676</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1458,6 +1404,7 @@ decodeFunction('c-n1?F$.n}7:{OVQ.(nlwSuOIMibmWi=*U!aE(7mIw{plOt%}Q2mK+]TINzi(-A=
                 <CheatEntry>
                   <ID>113678</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1532,6 +1479,7 @@ decodeFunction('c-n1?F$.n}7:{OVQ.(nlwSuOIMibmWi=*U!aE(7mIw{plOt%}Q2mK+]TINzi(-A=
                 <CheatEntry>
                   <ID>113679</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1627,6 +1575,7 @@ decodeFunction('c-n1?F$.n}7:{OVQ.(nlwSuOIMibmWi=*U!aE(7mIw{plOt%}Q2mK+]TINzi(-A=
                 <CheatEntry>
                   <ID>113680</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1701,6 +1650,7 @@ decodeFunction('c-n1?F$.n}7:{OVQ.(nlwSuOIMibmWi=*U!aE(7mIw{plOt%}Q2mK+]TINzi(-A=
                 <CheatEntry>
                   <ID>113681</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1775,6 +1725,7 @@ decodeFunction('c-n1?F$.n}7:{OVQ.(nlwSuOIMibmWi=*U!aE(7mIw{plOt%}Q2mK+]TINzi(-A=
                 <CheatEntry>
                   <ID>113682</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1849,6 +1800,7 @@ decodeFunction('c-n1?F$.n}7:{OVQ.(nlwSuOIMibmWi=*U!aE(7mIw{plOt%}Q2mK+]TINzi(-A=
                 <CheatEntry>
                   <ID>113683</ID>
                   <Description>""</Description>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
@@ -1926,12 +1878,14 @@ decodeFunction('c-n1?F$.n}7:{OVQ.(nlwSuOIMibmWi=*U!aE(7mIw{plOt%}Q2mK+]TINzi(-A=
               <ID>116121</ID>
               <Description>"[Items]"</Description>
               <Options moHideChildren="1"/>
+              <LastState Value="" RealAddress="00000000"/>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
                   <ID>116128</ID>
                   <Description>"[Admin items]"</Description>
                   <Options moHideChildren="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
@@ -2033,6 +1987,7 @@ decodeFunction('c-n1?F$.n}7:{OVQ.(nlwSuOIMibmWi=*U!aE(7mIw{plOt%}Q2mK+]TINzi(-A=
                   <ID>116186</ID>
                   <Description>"[Guns]"</Description>
                   <Options moHideChildren="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
@@ -2477,6 +2432,7 @@ decodeFunction('c-n1?F$.n}7:{OVQ.(nlwSuOIMibmWi=*U!aE(7mIw{plOt%}Q2mK+]TINzi(-A=
               <ID>116264</ID>
               <Description>"Enable functions"</Description>
               <Options moHideChildren="1"/>
+              <LastState/>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{$lua}
 if syntaxcheck then return end
@@ -2493,6 +2449,7 @@ decodeFunction('c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+42)bqCz#8]1ti!Q92nvq92n#p7#i3
                   <ID>116261</ID>
                   <Description>"Rainbow"</Description>
                   <Options moAlwaysHideChildren="1"/>
+                  <LastState/>
                   <VariableType>Auto Assembler Script</VariableType>
                   <AssemblerScript>{$lua}
 if syntaxcheck then return end
@@ -2532,11 +2489,13 @@ decodeFunction('c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+42)bq3z+Bq1ti!Q92nvq92n#p7#i3
       <ID>115219</ID>
       <Description>"💡Misc"</Description>
       <Options moHideChildren="1"/>
+      <LastState Value="" RealAddress="00000000"/>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
           <ID>1</ID>
           <Description>"Save config"</Description>
+          <LastState/>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{$lua}
 if syntaxcheck then return end
@@ -2552,6 +2511,7 @@ if ~syntaxcheck then return end
         <CheatEntry>
           <ID>2</ID>
           <Description>"Load config"</Description>
+          <LastState/>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript Async="1">{$lua}
 if syntaxcheck then return end
@@ -2568,6 +2528,7 @@ if ~syntaxcheck then return end
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
-  <LuaScript>decodeFunction('c-nnXO:_*%5S^2$SFtGVsTPU^DLvGpQhUxS[GCd(=6IV4)BQgRc4JlOAyC,Y+Zu^6i0v/H*^lDYK!([G!?QYy+[p8)Tzs8oi(=bLvK9k4#=71)Am*=V!jqy(DWLE_DO[pLDNUhFHC%%RvH]G7b3_=U*HYec(qqX=u-4k)/[;Rmcm*t0YAeuDq,9U4Ny4qsT2oEpc=F__1v^K?HDEzE5N{Lz%y-#x$d;hLwNY:;;S#Hx40*?K#cgNlz0^G.WGLre$q%HGj(!knpt@ge?,]cE]${(td_!B?JHFtUd1AtQl**6!UFLDOf!08T.==B?FgN1rub%Dsu26}xHOw2^[6;BH64Jv_UnrNO*nfh?:bV6;t?}oigLASsl@nCRe+lTh-rBY}y-b0mjKyVRPg*/j+p[5$OHTSczQ+BUh-dK/GbL?Mm@1E)P$9D6FtL+%?K5^#/2iRd')()
+  <LuaScript>--if you see this click "yes"
+decodeFunction('c-nnXO:_*%5S^2$SFtGVsTPU^DLvGpQhUxS[GCd(=6IV4)BQgRc4JlOAyC,Y+Zu^6i0v/H*^lDYK!([G!?QYy+[p8)Tzs8oi(=bLvK9k4#=71)Am*=V!jqy(DWLE_DO[pLDNUhFHC%%RvH]G7b3_=U*HYec(qqX=u-4k)/[;Rmcm*t0YAeuDq,9U4Ny4qsT2oEpc=F__1v^K?HDEzE5N{Lz%y-#x$d;hLwNY:;;S#Hx40*?K#cgNlz0^G.WGLre$q%HGj(!knpt@ge?,]cE]${(td_!B?JHFtUd1AtQl**6!UFLDOf!08T.==B?FgN1rub%Dsu26}xHOw2^[6;BH64Jv_UnrNO*nfh?:bV6;t?}oigLASsl@nCRe+lTh-rBY}y-b0mjKyVRPg*/j+p[5$OHTSczQ+BUh-dK/GbL?Mm@1E)P$9D6FtL+%?K5^#/2iRd')()
 </LuaScript>
 </CheatTable>
